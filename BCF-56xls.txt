@@ -1,0 +1,480 @@
+MAIN LEVEL COMMAND <___>                                                        
+< ZZEEI:BCF=56;
+                    
+                                                                                
+                                                                                
+LOADING PROGRAM VERSION 36.3-0                                                  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+BSC3i     BSC78JRK                  2017-02-20  19:54:50                        
+RADIO NETWORK CONFIGURATION IN BSC:                                             
+                                                         E P  B                 
+                                      F                  T R  C D-CHANNEL  BUSY 
+                      AD OP           R  ET- BCCH/CBCH/  R E  S O&M LINK  HR  FR
+ LAC   CI         HOP ST STATE  FREQ  T  PCM ERACH       X F  U NAME  ST DHR DFR
+                                                                             /GP
+===================== == ====== ==== == ==== =========== = = == ===== == === ===
+                                                                                
+BCF-0056  FLEXI EDGE   U WO                                   2  OM056 WO       
+ 00223 35881 BTS-0144  U WO                                                6   4
+ EBMBMENDHA1     RF/-                                                      0   0
+                                                                               8
+              TRX-001  U WO        3  0  557               P  4                 
+              TRX-002  U WO       12  0  557                  4                 
+              TRX-003  U WO       26  0  557 MBCCH+CBCH    P  5                 
+              TRX-004  U WO       10  0  557                  4                 
+ 00223 35882 BTS-0145  U WO                                               14   0
+ EBMBMENDHA2     RF/-                                                      0   0
+                                                                               1
+              TRX-005  U WO       30  0  557 MBCCH+CBCH    P  2                 
+              TRX-006  U WO        1  0  557               P  5                 
+ 00223 35883 BTS-0146  U WO                                               11   1
+ EBMBMENDHA3     RF/-                                                      0   0
+                                                                               5
+              TRX-009  U WO       18  0  578 MBCCH+CBCH    P  5                 
+              TRX-010  U WO       59  0  578               P  4                 
+              TRX-011  U WO       11  0  578                  3                 
+              TRX-012  U WO       13  0  578                  2                 
+ 00223 35881 BTS-0160  U WO                                                0   0
+ EBMBMENDHA1EX   RF/-                                                      0   0
+                                                                               0
+                                                                                
+ 00223 35883 BTS-0162  U WO                                                0   0
+ EXPBMENDHA3     RF/-                                                      0   0
+                                                                               0
+                                                                                
+                                                                                
+                                                                                
+COMMAND EXECUTED                                                                
+                                                                                
+                                                                                
+BASE STATION CONTROLLER HANDLING COMMAND <EE_>                                  
+< ZDSB:::PCM=557;                                                               
+                                                                                
+LOADING PROGRAM VERSION 12.14-0                                                 
+                                                                                
+BSC3i     BSC78JRK                  2017-02-20  19:55:09                        
+                                                                                
+INTERROGATING BASE STATION CONTROLLER D-CHANNEL DATA                            
+                                                                                
+                         EXT     SUB                  TERM  LOG  INT     PAR    
+NAME   NUM SAPI TEI   BR PCM-TSL-TSL C/M  UNIT   TERM FUNC  TERM PCM-TSL SET    
+-----  --- ---- ---   -- ----------- ---  ----------------  ---- ------- ---    
+T0561  100    0   1   32  557-25-0        BCSU-4   14   64    55  422-00   0    
+T0563  424    0   3   32  557-25-4        BCSU-5   14  179   161  445-19   0    
+T0564  462    0   4   32  557-31-4        BCSU-4   14  149   148  428-21   0    
+T0565  464    0   5   32  557-26-0        BCSU-2   14   95    85  390-31   0    
+T0566  465    0   6   32  557-26-4        BCSU-5   14  180   162  445-20   0    
+OM056  472   62   1   16  557-28-0        BCSU-2   14  163   162  397-03   0    
+T0562 1079    0   2   32  557-30-0        BCSU-4   14  221   227  430-29   0    
+                                                                                
+COMMAND EXECUTED                                                                
+                                                                                
+                                                                                
+PRIMARY RATE ACCESS D-CHANNEL DATA HANDLING COMMAND <DS_>                       
+<                                                                               
+                                                                                
+                                                                                
+MAIN LEVEL COMMAND <___>                                                        
+< ZDSB:::PCM=578;                                                                
+                                                                                
+LOADING PROGRAM VERSION 12.14-0                                                 
+                                                                                
+BSC3i     BSC78JRK                  2017-02-20  19:55:12                        
+                                                                                
+INTERROGATING BASE STATION CONTROLLER D-CHANNEL DATA                            
+                                                                                
+                         EXT     SUB                  TERM  LOG  INT     PAR    
+NAME   NUM SAPI TEI   BR PCM-TSL-TSL C/M  UNIT   TERM FUNC  TERM PCM-TSL SET    
+-----  --- ---- ---   -- ----------- ---  ----------------  ---- ------- ---    
+T0569  355    0   9   32  578-25-4        BCSU-5   14   79    55  438-15   0    
+X0567  404    0   7   32  578-26-0        BCSU-3   14  200    98  414-08   0    
+T0570  469    0  10   32  578-25-0        BCSU-4   14  163   163  429-03   0    
+T056B  926    0  11   32  578-26-4        BCSU-3   14  153   161  412-25   0    
+T56C  1070    0  12   32  578-31-0        BCSU-2   14  233   223  399-09   0    
+                                                                                
+COMMAND EXECUTED                                                                
+                                                                                
+                                                                                
+PRIMARY RATE ACCESS D-CHANNEL DATA HANDLING COMMAND <DS_>                       
+< ZZERO:BCF=56;                                                                  
+                                                                                
+LOADING PROGRAM VERSION 34.2-0                                                  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+BSC3i     BSC78JRK                  2017-02-20  19:55:22                        
+                                                                                
+TRANSCEIVER DATA                                                                
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0144  EBMBMENDHA1                                                           
+BTS-0144  EBMBMENDHA1       UNLOCKED         WO                                 
+TRX-001 EDGE                UNLOCKED         WO                                 
+ BCSU-4                                                                         
+                                                                                
+GTRX      Y (EDGE CS3 & CS4)                                                    
+                                  HRS       Y              PREF  P              
+                                                                                
+                                                                                
+FREQ      3        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP      56              LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)               
+                                                                                
+MA FREQUENCY LIST         1633    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    100  T0561                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   557-  1     0     TCHD      0  UNLOCKED        WO             GP          
+  1   557         -     SDCCH     -  UNLOCKED        WO                         
+  2   557-  1     2     TCHD      0  UNLOCKED        WO             GP          
+  3   557-  1     3     TCHD      0  UNLOCKED        WO             GP          
+  4   557-  2     0     TCHD      0  UNLOCKED        WO             GP          
+  5   557-  2     1     TCHD      0  UNLOCKED        WO             GP          
+  6   557-  2     2     TCHD      0  UNLOCKED        WO             GP          
+  7   557-  2     3     TCHD      0  UNLOCKED        WO             GP          
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0144  EBMBMENDHA1                                                           
+BTS-0144  EBMBMENDHA1       UNLOCKED         WO                                 
+TRX-002 EDGE                UNLOCKED         WO                                 
+ BCSU-4                                                                         
+                                                                                
+GTRX      N                                                                     
+                                  HRS       Y              PREF  N              
+                                                                                
+                                                                                
+FREQ     12        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE      1 (OSC)                
+                                                                                
+MA FREQUENCY LIST         1633    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET   1079  T0562                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   557-  3     0     TCHD      0  UNLOCKED        WO             FR          
+  1   557-  3     1     TCHD      0  UNLOCKED        WO             FR          
+  2   557-  3     2     TCHD      0  UNLOCKED        WO             ID    HR    
+  3   557-  3     3     TCHD      0  UNLOCKED        WO             FR          
+  4   557-  4     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  5   557-  4     1     TCHD      0  UNLOCKED        WO             ID    ID    
+  6   557-  4     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  7   557-  4     3     TCHD      0  UNLOCKED        WO             ID    ID    
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0144  EBMBMENDHA1                                                           
+BTS-0144  EBMBMENDHA1       UNLOCKED         WO                                 
+TRX-003 EDGE                UNLOCKED         WO                                 
+ BCSU-5                                                                         
+                                                                                
+GTRX      Y (EDGE CS3 & CS4)                                                    
+                                  HRS       Y              PREF  P              
+                                                                                
+                                                                                
+FREQ     26        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP      56              LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       -                                   
+                                                                                
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)               
+                                                                                
+                                  SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    424  T0563                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   557         -     MBCCH     -  UNLOCKED        WO                         
+  1   557         -     SDCCB     -  UNLOCKED        WO                         
+  2   557-  5     2     TCHD      0  UNLOCKED        WO             HR    HR    
+  3   557-  5     3     TCHD      0  UNLOCKED        WO             HR    HR    
+  4   557-  6     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  5   557-  6     1     TCHD      0  UNLOCKED        WO             ID    ID    
+  6   557-  6     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  7   557-  6     3     TCHD      0  UNLOCKED        WO             GP          
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0144  EBMBMENDHA1                                                           
+BTS-0144  EBMBMENDHA1       UNLOCKED         WO                                 
+TRX-004 EDGE                UNLOCKED         WO                                 
+ BCSU-4                                                                         
+                                                                                
+GTRX      N                                                                     
+                                  HRS       Y              PREF  N              
+                                                                                
+                                                                                
+FREQ     10        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE      1 (OSC)                
+                                                                                
+MA FREQUENCY LIST         1633    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    462  T0564                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   557-  7     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  1   557-  7     1     TCHD      0  UNLOCKED        WO             FR          
+  2   557-  7     2     TCHD      0  UNLOCKED        WO             FR          
+  3   557-  7     3     TCHD      0  UNLOCKED        WO             FR          
+  4   557-  8     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  5   557-  8     1     TCHD      0  UNLOCKED        WO             FR          
+  6   557-  8     2     TCHD      1  UNLOCKED        WO             HR    HR    
+  7   557-  8     3     TCHD      0  UNLOCKED        WO             FR          
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0145  EBMBMENDHA2                                                           
+BTS-0145  EBMBMENDHA2       UNLOCKED         WO                                 
+TRX-005 EDGE                UNLOCKED         WO                                 
+ BCSU-2                                                                         
+                                                                                
+GTRX      Y (EDGE CS3 & CS4)                                                    
+                                  HRS       Y              PREF  P              
+                                                                                
+                                                                                
+FREQ     30        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP      56              LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       -                                   
+                                                                                
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)               
+                                                                                
+                                  SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    464  T0565                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   557         -     MBCCH     -  UNLOCKED        WO                         
+  1   557         -     SDCCB     -  UNLOCKED        WO                         
+  2   557-  9     2     TCHD      0  UNLOCKED        WO             HR    ID    
+  3   557-  9     3     TCHD      0  UNLOCKED        WO             ID    HR    
+  4   557- 10     0     TCHD      0  UNLOCKED        WO             ID    HR    
+  5   557- 10     1     TCHD      0  UNLOCKED        WO             FR          
+  6   557- 10     2     TCHD      0  UNLOCKED        WO             ID    HR    
+  7   557- 10     3     TCHD      0  UNLOCKED        WO             HR    ID    
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0145  EBMBMENDHA2                                                           
+BTS-0145  EBMBMENDHA2       UNLOCKED         WO                                 
+TRX-006 EDGE                UNLOCKED         WO                                 
+ BCSU-5                                                                         
+                                                                                
+GTRX      Y (EDGE CS3 & CS4)                                                    
+                                  HRS       Y              PREF  P              
+                                                                                
+                                                                                
+FREQ      1        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP      56              LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)               
+                                                                                
+MA FREQUENCY LIST         1728    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    465  T0566                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   557- 11     0     TCHD      0  UNLOCKED        WO             ID    HR    
+  1   557         -     SDCCH     -  UNLOCKED        WO                         
+  2   557- 11     2     TCHD      0  UNLOCKED        WO             FR          
+  3   557- 11     3     TCHD      0  UNLOCKED        WO             HR    HR    
+  4   557- 12     0     TCHD      0  UNLOCKED        WO             FR          
+  5   557- 12     1     TCHD      0  UNLOCKED        WO             FR          
+  6   557- 12     2     TCHD      0  UNLOCKED        WO             ID    HR    
+  7   557- 12     3     TCHD      0  UNLOCKED        WO             GP          
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0146  EBMBMENDHA3                                                           
+BTS-0146  EBMBMENDHA3       UNLOCKED         WO                                 
+TRX-009 EDGE                UNLOCKED         WO                                 
+ BCSU-5                                                                         
+                                                                                
+GTRX      Y (EDGE CS3 & CS4)                                                    
+                                  HRS       Y              PREF  P              
+                                                                                
+                                                                                
+FREQ     18        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP    1056              LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       -                                   
+                                                                                
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)               
+                                                                                
+                                  SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    355  T0569                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   578         -     MBCCH     -  UNLOCKED        WO                         
+  1   578         -     SDCCB     -  UNLOCKED        WO                         
+  2   578-  5     2     TCHD      0  UNLOCKED        WO             HR    ID    
+  3   578-  5     3     TCHD      0  UNLOCKED        WO             HR    HR    
+  4   578-  6     0     TCHD      0  UNLOCKED        WO             ID    HR    
+  5   578-  6     1     TCHD      0  UNLOCKED        WO             ID    ID    
+  6   578-  6     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  7   578-  6     3     TCHD      0  UNLOCKED        WO             HR    HR    
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0146  EBMBMENDHA3                                                           
+BTS-0146  EBMBMENDHA3       UNLOCKED         WO                                 
+TRX-010 EDGE                UNLOCKED         WO                                 
+ BCSU-4                                                                         
+                                                                                
+GTRX      Y (EDGE CS3 & CS4)                                                    
+                                  HRS       Y              PREF  P              
+                                                                                
+                                                                                
+FREQ     59        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP    1056              LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)               
+                                                                                
+MA FREQUENCY LIST         1616    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    469  T0570                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   578-  7     0     TCHD      0  UNLOCKED        WO             HR    HR    
+  1   578         -     SDCCH     -  UNLOCKED        WO                         
+  2   578-  7     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  3   578-  7     3     TCHD      0  UNLOCKED        WO             ID    ID    
+  4   578-  8     0     TCHD      0  UNLOCKED        WO             GP          
+  5   578-  8     1     TCHD      0  UNLOCKED        WO             GP          
+  6   578-  8     2     TCHD      0  UNLOCKED        WO             GP          
+  7   578-  8     3     TCHD      0  UNLOCKED        WO             GP          
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0146  EBMBMENDHA3                                                           
+BTS-0146  EBMBMENDHA3       UNLOCKED         WO                                 
+TRX-011 EDGE                UNLOCKED         WO                                 
+ BCSU-3                                                                         
+                                                                                
+GTRX      N                                                                     
+                                  HRS       Y              PREF  N              
+                                                                                
+                                                                                
+FREQ     11        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE      1 (OSC)                
+                                                                                
+MA FREQUENCY LIST         1616    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET    926  T056B                                             
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   578- 27     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  1   578- 27     1     TCHD      0  UNLOCKED        WO             ID    HR    
+  2   578- 27     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  3   578- 27     3     TCHD      0  UNLOCKED        WO             HR    ID    
+  4   578- 28     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  5   578- 28     1     TCHD      0  UNLOCKED        WO             ID    ID    
+  6   578- 28     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  7   578- 28     3     TCHD      0  UNLOCKED        WO             ID    ID    
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+                            ADM.STATE        OP.STATE                           
+                            --------------------------------------              
+BCF-0056                    UNLOCKED         WO                                 
+SEG-0146  EBMBMENDHA3                                                           
+BTS-0146  EBMBMENDHA3       UNLOCKED         WO                                 
+TRX-012 EDGE                UNLOCKED         WO                                 
+ BCSU-2                                                                         
+                                                                                
+GTRX      N                                                                     
+                                  HRS       Y              PREF  N              
+                                                                                
+                                                                                
+FREQ     13        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)   
+                                                                                
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)   
+DDU       - (NOT APPLICABLE)      SDG       1                                   
+                                                                                
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE      1 (OSC)                
+                                                                                
+MA FREQUENCY LIST         1616    SIGN      0                                   
+                                                                                
+D-CH TELECOM LINK SET   1070  T56C                                              
+                                                                                
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS      
+------------------------------------------------------------------------------  
+  0   578-  9     0     TCHD      0  UNLOCKED        WO             HR    HR    
+  1   578-  9     1     TCHD      0  UNLOCKED        WO             HR    HR    
+  2   578-  9     2     TCHD      0  UNLOCKED        WO             FR          
+  3   578-  9     3     TCHD      0  UNLOCKED        WO             HR    HR    
+  4   578- 10     0     TCHD      0  UNLOCKED        WO             ID    ID    
+  5   578- 10     1     TCHD      0  UNLOCKED        WO             ID    ID    
+  6   578- 10     2     TCHD      0  UNLOCKED        WO             ID    ID    
+  7   578- 10     3     TCHD      0  UNLOCKED        WO             ID    ID    
+                                                                                
+TRANSCEIVER HAS NO INTERFERING CELLS                                            
+                                                                                
+COMMAND EXECUTED                                                                
+                                                                                
+                                                                                
+TRANSCEIVER DATA HANDLING COMMAND <ER_>                                         
+<
