@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<details of="employee" size="1000">
+    <employee fname="Justin" lname="Davies">
+        <id>528</id>
+        <location>Noida</location>
+        <salary>25000</salary>
+        <team name="Development" size="20"/>
+    </employee>
+    <employee fname="Clark" lname="Tris">
+        <id>529</id>
+        <location>Bangalore</location>
+        <salary>35000</salary>
+        <team name="Design" size="10"/>
+    </employee>
+    <employee fname="Manual" lname="Jeyapaul">
+        <id>530</id>
+        <location>Chennai</location>
+        <salary>45000</salary>
+        <team name="Testing" size="5"/>
+    </employee>
+</details>
