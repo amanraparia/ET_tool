@@ -1,0 +1,2337 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.03.30 14:09:41 =~=~=~=~=~=~=~=~=~=~=~=
+zeqoZEEI
+
+
+MAIN LEVEL COMMAND <___>
+<  EEEI:BCF=416:;
+
+LOADING PROGRAM VERSION 34.5-0
+
+
+
+
+BSC3i     BSC157BDA                 2017-03-30  14:10:06
+RADIO NETWORK CONFIGURATION IN BSC:
+                                                         E P  B
+                                      F                  T R  C D-CHANNEL  BUSY
+                      AD OP           R  ET- BCCH/CBCH/  R E  S O&M LINK  HR  FR
+ LAC   CI         HOP ST STATE  FREQ  T  PCM ERACH       X F  U NAME  ST DHR
+                                                                             /GP
+===================== == ====== ==== == ==== =========== = = == ===== == === ===
+
+BCF-0416  FLEXI EDGE   U WO                                   5  OM416 WO
+ 05737 04976 BTS-0506  U WO                                                7   0
+ NBTBMNMARK1     RF/-                                                      0
+                                                                               4
+              TRX-001  U WO      628  0  589                  4 
+              TRX-002  U WO      722  0  589 MBCCH+CBCH    P  0 
+ 05737 04977 BTS-0507  U WO                                                0   0
+ NBTBMNMARK2     RF/-                                                      0
+                                                                               6
+              TRX-005  U WO      711  0  589 MBCCH+CBCH    P  5 
+              TRX-006  U WO      727  0  589                  2 
+ 05737 04978 BTS-0508  U WO                                                5   0
+ NBTBMNMARK3     RF/-                                                      0
+                                                                               4
+              TRX-009  U WO      624  0  589                  4 
+              TRX-010  U WO      604  0  589 MBCCH+CBCH    P  0 
+
+
+COMMAND EXECUTED
+
+
+BASE STATION CONTROLLER HANDLING COMMAND <EE_>
+<  ZEQO
+
+LOADING PROGRAM VERSION 34.12-0
+
+/* DATA UNITS:
+
+   BTS IDENTIFICATION, BTS NAME, LOCATION AREA CODE, CELL IDENTIFICATION,
+   SEG IDENTIFICATION, SEG NAME: PARAMETER GROUP ;                         */
+
+EQOO:BTS
+
+
+/* IDENTIFY BASE TRANSCEIVER STATION (BTS):
+
+   DECIMAL NUMBER  1 ... 2000    ( &, && )       */
+
+EQOO:BTS=506
+
+/* GIVE PARAMETER GROUP
+
+   IDE ... BTS IDENTIFICATION PARAMETERS
+   CEL ... CELL ACCESS PARAMETERS
+   RAD ... RADIO LINK CONTROL DL PARAMETERS
+   QUE ... QUEUEING PARAMETERS
+   CCH ... CCH CONFIGURATION PARAMETERS
+   INT ... INTERFERENCE AVERAGING PARAMETERS
+   MIS ... MISCELLANEOUS PARAMETERS
+   HOP ... FREQUENCY HOPPING PARAMETERS
+   BCC ... BCCH FREQUENCY LIST USAGE PARAMETERS
+   TRU ... TRUNK RESERVATION PARAMETERS
+   GPRS .. GPRS PARAMETERS
+   GPC ... GPRS CONTROL PARAMETERS
+   DAT ... DATA SERVICE PARAMETERS
+   AMR ... AMR PARAMETERS
+   ALL ... ALL PARAMETERS
+
+   DEFAULT IS IDE GROUP                       */
+
+EQOO:BTS=506:;
+
+BSC3i     BSC157BDA                 2017-03-30  14:10:12
+
+BTS IDENTIFICATION PARAMETERS :
+===============================
+
+SEG-0506   NBTBMNMARK1    
+BCF-0416   BTS-0506   NBTBMNMARK1    
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+CELL IDENTITY............................(CI)..... 04976
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+BS IDENTITY CODE.........................(BSIC)
+
+   NETWORK COLOUR CODE...................(NCC)...  0
+   BTS COLOUR CODE.......................(BCC)...  0
+
+LOCATION AREA ID.........................(LAI)
+   MOBILE COUNTRY CODE...................(MCC)...  404
+   MOBILE NETWORK CODE...................(MNC)...  93
+   LOCATION AREA CODE....................(LAC)...  05737
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL).... 47
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 37
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+COMMAND EXECUTED
+
+
+BASE TRANSCEIVER STATION HANDLING IN BSC COMMAND <EQ_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EEQO:BTS=506:;7
+
+LOADING PROGRAM VERSION 34.12-0
+
+/* GIVE PARAMETER GROUP
+
+   IDE ... BTS IDENTIFICATION PARAMETERS
+   CEL ... CELL ACCESS PARAMETERS
+   RAD ... RADIO LINK CONTROL DL PARAMETERS
+   QUE ... QUEUEING PARAMETERS
+   CCH ... CCH CONFIGURATION PARAMETERS
+   INT ... INTERFERENCE AVERAGING PARAMETERS
+   MIS ... MISCELLANEOUS PARAMETERS
+   HOP ... FREQUENCY HOPPING PARAMETERS
+   BCC ... BCCH FREQUENCY LIST USAGE PARAMETERS
+   TRU ... TRUNK RESERVATION PARAMETERS
+   GPRS .. GPRS PARAMETERS
+   GPC ... GPRS CONTROL PARAMETERS
+   DAT ... DATA SERVICE PARAMETERS
+   AMR ... AMR PARAMETERS
+   ALL ... ALL PARAMETERS
+
+   DEFAULT IS IDE GROUP                       */
+
+EQOO:BTS=507:;
+
+BSC3i     BSC157BDA                 2017-03-30  14:10:27
+
+BTS IDENTIFICATION PARAMETERS :
+===============================
+
+SEG-0507   NBTBMNMARK2    
+BCF-0416   BTS-0507   NBTBMNMARK2    
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+CELL IDENTITY............................(CI)..... 04977
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+BS IDENTITY CODE.........................(BSIC)
+
+   NETWORK COLOUR CODE...................(NCC)...  4
+   BTS COLOUR CODE.......................(BCC)...  3
+
+LOCATION AREA ID.........................(LAI)
+   MOBILE COUNTRY CODE...................(MCC)...  404
+   MOBILE NETWORK CODE...................(MNC)...  93
+   LOCATION AREA CODE....................(LAC)...  05737
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....1548
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)...  1
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+COMMAND EXECUTED
+
+
+BASE TRANSCEIVER STATION HANDLING IN BSC COMMAND <EQ_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EEQO:BTS=507:;8
+
+LOADING PROGRAM VERSION 34.12-0
+
+/* GIVE PARAMETER GROUP
+
+   IDE ... BTS IDENTIFICATION PARAMETERS
+   CEL ... CELL ACCESS PARAMETERS
+   RAD ... RADIO LINK CONTROL DL PARAMETERS
+   QUE ... QUEUEING PARAMETERS
+   CCH ... CCH CONFIGURATION PARAMETERS
+   INT ... INTERFERENCE AVERAGING PARAMETERS
+   MIS ... MISCELLANEOUS PARAMETERS
+   HOP ... FREQUENCY HOPPING PARAMETERS
+   BCC ... BCCH FREQUENCY LIST USAGE PARAMETERS
+   TRU ... TRUNK RESERVATION PARAMETERS
+   GPRS .. GPRS PARAMETERS
+   GPC ... GPRS CONTROL PARAMETERS
+   DAT ... DATA SERVICE PARAMETERS
+   AMR ... AMR PARAMETERS
+   ALL ... ALL PARAMETERS
+
+   DEFAULT IS IDE GROUP                       */
+
+EQOO:BTS=508:;
+
+BSC3i     BSC157BDA                 2017-03-30  14:10:35
+
+BTS IDENTIFICATION PARAMETERS :
+===============================
+
+SEG-0508   NBTBMNMARK3    
+BCF-0416   BTS-0508   NBTBMNMARK3    
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+CELL IDENTITY............................(CI)..... 04978
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+BS IDENTITY CODE.........................(BSIC)
+
+   NETWORK COLOUR CODE...................(NCC)...  6
+   BTS COLOUR CODE.......................(BCC)...  1
+
+LOCATION AREA ID.........................(LAI)
+   MOBILE COUNTRY CODE...................(MCC)...  404
+   MOBILE NETWORK CODE...................(MNC)...  93
+   LOCATION AREA CODE....................(LAC)...  05737
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....1549
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 13
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+COMMAND EXECUTED
+
+
+BASE TRANSCEIVER STATION HANDLING IN BSC COMMAND <EQ_>
+<  ZEQUOUO
+
+LOADING PROGRAM VERSION 28.1-0
+
+/* DATA UNITS:
+
+   BTS IDENTIFICATION, BTS NAME, SEG IDENTIFICATION, SEG NAME; */
+
+EUOO:BTS
+
+
+/* IDENTIFY BASE TRANSCEIVER STATION (BTS):
+
+   DECIMAL NUMBER  1 ... 2000    ( &, && )
+
+   BTS, NAME, SEG AND SEGNAME PARAMETERS ARE ALTERNATIVE   */
+
+EUOO:BTS=506
+
+/* SELECT EXECUTION DETERMINATION OR
+   SYSTEM NAME OF OUTPUT DEVICE
+
+     EXECUTION DETERMINATION:
+       ; .. COMMAND EXECUTION
+       N .. NO EXECUTION
+
+     SYSTEM NAME OF OUTPUT DEVICE:
+       1 ... 11 CHARACTERS
+
+   DEFAULT IS CURRENT DEFINITION      */
+
+EUOO:BTS=506:;
+
+BSC3i     BSC157BDA                 2017-03-30  14:12:10
+
+POWER CONTROL PARAMETERS OF
+SEG-0506   NBTBMNMARK1    
+
+BTS-0506   NBTBMNMARK1    
+
+POWER CTRL ENABLED .........  Y      POWER CONTROL INTERVAL ..... 02  s
+BS TX PWR MIN ....PEAK PWR - 30 dB   BS TX PWR MAX ....PEAK PWR - 00  dB
+                                     BS TX PWR MAX1X00 PEAK PWR - 02  dB
+POWER INCR STEP SIZE .......  6 dB   POWER RED STEP SIZE ........  2  dB
+POWER DECR LIMIT BAND 0 .... 12 dB   POWER DECR LIMIT BAND 1 .... 10  dB
+POWER DECR LIMIT BAND 2 ....  6 dB   POWER DECR QUAL FACTOR .....  1
+ALA ENABLED ................  N      MIN INT BETWEEN ALA ........ 10  s
+POWER LIMIT ALA ............ 10 dB   BCCH TRX TX PWR REDUCTION ..  0  dB
+
+MAX DL POWER REDUCTION ..... 06 dB   DERIVED HO PWR SECUR MARGIN. 05 dB
+MAX UL POWER REDUCTION ..... 06 dB   ESTIMATED DL INTERFERENCE .- 80 dBm
+MAXIMUM POWER COMPENSATION.. 00 dB
+
+
+PC AVERAGING LEV  DL     WINDOW SIZE ............ 04    WEIGHTING .... 1
+PC AVERAGING LEV  UL     WINDOW SIZE ............ 04    WEIGHTING .... 1
+PC AVERAGING QUAL DL     WINDOW SIZE ............ 03    WEIGHTING .... 1
+PC AVERAGING QUAL UL     WINDOW SIZE ............ 03    WEIGHTING .... 1
+
+PC UPPER THRESHOLDS QUAL DL  RX QUAL .. 0.4% -  0.8%  PX .. 01  NX .. 01
+PC UPPER THRESHOLDS QUAL UL  RX QUAL .. 0.4% -  0.8%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL DL  RX QUAL .. 1.6% -  3.2%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL UL  RX QUAL .. 1.6% -  3.2%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL144  RX QUAL .. 0.8% -  1.6%  PX .. 01  NX .. 01
+
+PC UPPER THRESHOLD DL RX QUAL DHR ..... 0.2% -  0.4%
+PC UPPER THRESHOLD UL RX QUAL DHR ..... 0.2% -  0.4%
+PC LOWER THRESHOLD DL RX QUAL DHR ..... 0.8% -  1.6%
+PC LOWER THRESHOLD UL RX QUAL DHR ..... 0.8% -  1.6%
+
+PC UPPER THRESHOLDS LEV  DL  RX LEVEL .. - 75 dBm     PX .. 02  NX .. 03
+PC UPPER THRESHOLDS LEV  UL  RX LEVEL .. - 80 dBm     PX .. 02  NX .. 03
+PC LOWER THRESHOLDS LEV  DL  RX LEVEL .. - 85 dBm     PX .. 02  NX .. 03
+PC LOWER THRESHOLDS LEV  UL  RX LEVEL .. - 90 dBm     PX .. 02  NX .. 03
+
+IDLE MODE SIGNAL STRENGHT FILTER PERIOD .........   9
+TRANSFER MODE SIGNAL STRENGHT FILTER PERIOD .....  13
+BINARY REPRESENTATION ALPHA .....................   8
+BINARY REPRESENTATION TAU .......................  36 dBm
+BIT ERROR PROBABILITY FILTER AVERAGING PERIOD ...  10
+
+PC UPPER THRESHOLDS DL RX QUAL AMR FR .. 0.4% -  0.8%
+PC UPPER THRESHOLDS UL RX QUAL AMR FR .. 0.4% -  0.8%
+PC LOWER THRESHOLDS DL RX QUAL AMR FR .. 1.6% -  3.2%
+PC LOWER THRESHOLDS UL RX QUAL AMR FR .. 1.6% -  3.2%
+
+PC UPPER THRESHOLDS DL RX QUAL AMR HR .. 0.4% -  0.8%
+PC UPPER THRESHOLDS UL RX QUAL AMR HR .. 0.4% -  0.8%
+PC LOWER THRESHOLDS DL RX QUAL AMR HR .. 1.6% -  3.2%
+PC LOWER THRESHOLDS UL RX QUAL AMR HR .. 1.6% -  3.2%
+
+COMMAND EXECUTED
+
+
+POWER CONTROL PARAMETER HANDLING COMMAND <EU_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EEUO:BTS=506:;7
+
+LOADING PROGRAM VERSION 28.1-0
+
+BSC3i     BSC157BDA                 2017-03-30  14:12:13
+
+POWER CONTROL PARAMETERS OF
+SEG-0507   NBTBMNMARK2    
+
+BTS-0507   NBTBMNMARK2    
+
+POWER CTRL ENABLED .........  Y      POWER CONTROL INTERVAL ..... 02  s
+BS TX PWR MIN ....PEAK PWR - 30 dB   BS TX PWR MAX ....PEAK PWR - 00  dB
+                                     BS TX PWR MAX1X00 PEAK PWR - 02  dB
+POWER INCR STEP SIZE .......  6 dB   POWER RED STEP SIZE ........  2  dB
+POWER DECR LIMIT BAND 0 .... 12 dB   POWER DECR LIMIT BAND 1 .... 10  dB
+POWER DECR LIMIT BAND 2 ....  6 dB   POWER DECR QUAL FACTOR .....  1
+ALA ENABLED ................  N      MIN INT BETWEEN ALA ........ 10  s
+POWER LIMIT ALA ............ 10 dB   BCCH TRX TX PWR REDUCTION ..  0  dB
+
+MAX DL POWER REDUCTION ..... 06 dB   DERIVED HO PWR SECUR MARGIN. 05 dB
+MAX UL POWER REDUCTION ..... 06 dB   ESTIMATED DL INTERFERENCE .- 80 dBm
+MAXIMUM POWER COMPENSATION.. 00 dB
+
+
+PC AVERAGING LEV  DL     WINDOW SIZE ............ 04    WEIGHTING .... 1
+PC AVERAGING LEV  UL     WINDOW SIZE ............ 04    WEIGHTING .... 1
+PC AVERAGING QUAL DL     WINDOW SIZE ............ 03    WEIGHTING .... 1
+PC AVERAGING QUAL UL     WINDOW SIZE ............ 03    WEIGHTING .... 1
+
+PC UPPER THRESHOLDS QUAL DL  RX QUAL .. 0.4% -  0.8%  PX .. 01  NX .. 01
+PC UPPER THRESHOLDS QUAL UL  RX QUAL .. 0.4% -  0.8%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL DL  RX QUAL .. 1.6% -  3.2%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL UL  RX QUAL .. 1.6% -  3.2%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL144  RX QUAL .. 0.8% -  1.6%  PX .. 01  NX .. 01
+
+PC UPPER THRESHOLD DL RX QUAL DHR ..... 0.2% -  0.4%
+PC UPPER THRESHOLD UL RX QUAL DHR ..... 0.2% -  0.4%
+PC LOWER THRESHOLD DL RX QUAL DHR ..... 0.8% -  1.6%
+PC LOWER THRESHOLD UL RX QUAL DHR ..... 0.8% -  1.6%
+
+PC UPPER THRESHOLDS LEV  DL  RX LEVEL .. - 75 dBm     PX .. 02  NX .. 03
+PC UPPER THRESHOLDS LEV  UL  RX LEVEL .. - 80 dBm     PX .. 02  NX .. 03
+PC LOWER THRESHOLDS LEV  DL  RX LEVEL .. - 85 dBm     PX .. 02  NX .. 03
+PC LOWER THRESHOLDS LEV  UL  RX LEVEL .. - 90 dBm     PX .. 02  NX .. 03
+
+IDLE MODE SIGNAL STRENGHT FILTER PERIOD .........   9
+TRANSFER MODE SIGNAL STRENGHT FILTER PERIOD .....  13
+BINARY REPRESENTATION ALPHA .....................   8
+BINARY REPRESENTATION TAU .......................  36 dBm
+BIT ERROR PROBABILITY FILTER AVERAGING PERIOD ...  10
+
+PC UPPER THRESHOLDS DL RX QUAL AMR FR .. 0.4% -  0.8%
+PC UPPER THRESHOLDS UL RX QUAL AMR FR .. 0.4% -  0.8%
+PC LOWER THRESHOLDS DL RX QUAL AMR FR .. 1.6% -  3.2%
+PC LOWER THRESHOLDS UL RX QUAL AMR FR .. 1.6% -  3.2%
+
+PC UPPER THRESHOLDS DL RX QUAL AMR HR .. 0.4% -  0.8%
+PC UPPER THRESHOLDS UL RX QUAL AMR HR .. 0.4% -  0.8%
+PC LOWER THRESHOLDS DL RX QUAL AMR HR .. 1.6% -  3.2%
+PC LOWER THRESHOLDS UL RX QUAL AMR HR .. 1.6% -  3.2%
+
+COMMAND EXECUTED
+
+
+POWER CONTROL PARAMETER HANDLING COMMAND <EU_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EEUO:BTS=507:;8
+
+LOADING PROGRAM VERSION 28.1-0
+
+BSC3i     BSC157BDA                 2017-03-30  14:12:15
+
+POWER CONTROL PARAMETERS OF
+SEG-0508   NBTBMNMARK3    
+
+BTS-0508   NBTBMNMARK3    
+
+POWER CTRL ENABLED .........  Y      POWER CONTROL INTERVAL ..... 02  s
+BS TX PWR MIN ....PEAK PWR - 30 dB   BS TX PWR MAX ....PEAK PWR - 00  dB
+                                     BS TX PWR MAX1X00 PEAK PWR - 02  dB
+POWER INCR STEP SIZE .......  6 dB   POWER RED STEP SIZE ........  2  dB
+POWER DECR LIMIT BAND 0 .... 12 dB   POWER DECR LIMIT BAND 1 .... 10  dB
+POWER DECR LIMIT BAND 2 ....  6 dB   POWER DECR QUAL FACTOR .....  1
+ALA ENABLED ................  N      MIN INT BETWEEN ALA ........ 10  s
+POWER LIMIT ALA ............ 10 dB   BCCH TRX TX PWR REDUCTION ..  0  dB
+
+MAX DL POWER REDUCTION ..... 06 dB   DERIVED HO PWR SECUR MARGIN. 05 dB
+MAX UL POWER REDUCTION ..... 06 dB   ESTIMATED DL INTERFERENCE .- 80 dBm
+MAXIMUM POWER COMPENSATION.. 00 dB
+
+
+PC AVERAGING LEV  DL     WINDOW SIZE ............ 04    WEIGHTING .... 1
+PC AVERAGING LEV  UL     WINDOW SIZE ............ 04    WEIGHTING .... 1
+PC AVERAGING QUAL DL     WINDOW SIZE ............ 03    WEIGHTING .... 1
+PC AVERAGING QUAL UL     WINDOW SIZE ............ 03    WEIGHTING .... 1
+
+PC UPPER THRESHOLDS QUAL DL  RX QUAL .. 0.4% -  0.8%  PX .. 01  NX .. 01
+PC UPPER THRESHOLDS QUAL UL  RX QUAL .. 0.4% -  0.8%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL DL  RX QUAL .. 1.6% -  3.2%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL UL  RX QUAL .. 1.6% -  3.2%  PX .. 01  NX .. 01
+PC LOWER THRESHOLDS QUAL144  RX QUAL .. 0.8% -  1.6%  PX .. 01  NX .. 01
+
+PC UPPER THRESHOLD DL RX QUAL DHR ..... 0.2% -  0.4%
+PC UPPER THRESHOLD UL RX QUAL DHR ..... 0.2% -  0.4%
+PC LOWER THRESHOLD DL RX QUAL DHR ..... 0.8% -  1.6%
+PC LOWER THRESHOLD UL RX QUAL DHR ..... 0.8% -  1.6%
+
+PC UPPER THRESHOLDS LEV  DL  RX LEVEL .. - 75 dBm     PX .. 02  NX .. 03
+PC UPPER THRESHOLDS LEV  UL  RX LEVEL .. - 80 dBm     PX .. 02  NX .. 03
+PC LOWER THRESHOLDS LEV  DL  RX LEVEL .. - 85 dBm     PX .. 02  NX .. 03
+PC LOWER THRESHOLDS LEV  UL  RX LEVEL .. - 90 dBm     PX .. 02  NX .. 03
+
+IDLE MODE SIGNAL STRENGHT FILTER PERIOD .........   9
+TRANSFER MODE SIGNAL STRENGHT FILTER PERIOD .....  13
+BINARY REPRESENTATION ALPHA .....................   8
+BINARY REPRESENTATION TAU .......................  36 dBm
+BIT ERROR PROBABILITY FILTER AVERAGING PERIOD ...  10
+
+PC UPPER THRESHOLDS DL RX QUAL AMR FR .. 0.4% -  0.8%
+PC UPPER THRESHOLDS UL RX QUAL AMR FR .. 0.4% -  0.8%
+PC LOWER THRESHOLDS DL RX QUAL AMR FR .. 1.6% -  3.2%
+PC LOWER THRESHOLDS UL RX QUAL AMR FR .. 1.6% -  3.2%
+
+PC UPPER THRESHOLDS DL RX QUAL AMR HR .. 0.4% -  0.8%
+PC UPPER THRESHOLDS UL RX QUAL AMR HR .. 0.4% -  0.8%
+PC LOWER THRESHOLDS DL RX QUAL AMR HR .. 1.6% -  3.2%
+PC LOWER THRESHOLDS UL RX QUAL AMR HR .. 1.6% -  3.2%
+
+COMMAND EXECUTED
+
+
+POWER CONTROL PARAMETER HANDLING COMMAND <EU_>
+<  ZEQAO
+
+LOADING PROGRAM VERSION 34.3-0
+
+
+/* DATA UNITS:
+
+   BTS IDENTIFICATION, BTS NAME, SEG IDENTIFICATION, SEG NAME:
+   ADJACENT CELL INDEX: MOBILE COUNTRY CODE, MOBILE NETWORK CODE,
+   LOCATION AREA CODE, CELL IDENTIFICATION,
+   ADJACENT CELL IDENTIFICATION, ADJACENT CELL NAME,
+   ADJACENT SEG IDENTIFICATION, ADJACENT SEG NAME:
+   BCCH FREQUENCY;                                                 */
+
+EAOO:BTS
+
+
+/* IDENTIFY BASE TRANSCEIVER STATION (BTS):
+
+   DECIMAL NUMBER  1 ... 2000    ( &, && )
+
+   BTS, NAME, SEG AND SEGNAME PARAMETERS ARE ALTERNATIVE   */
+
+EAOO:BTS=506
+
+/* IDENTIFY ADJACENT CELL INDEX:
+
+   INDEX .. ADJACENT CELL INDEX  */
+
+EAOO:BTS=506:;
+
+BSC3i     BSC157BDA                 2017-03-30  14:12:21
+ADJACENT CELL DATA
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0507 NBTBMNMARK2    
+
+ADJACENT CELL INDEX.....................(INDEX). 1
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 4977
+NETWORK COLOUR CODE.....................(NCC)...   4
+BTS COLOUR CODE.........................(BCC)...   3
+FREQUENCY NUMBER OF BCCH................(FREQ)..  711
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   Y
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0508 NBTBMNMARK3    
+
+ADJACENT CELL INDEX.....................(INDEX). 2
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 4978
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   1
+FREQUENCY NUMBER OF BCCH................(FREQ)..  604
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   Y
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0096 NANIANJANI2    
+
+ADJACENT CELL INDEX.....................(INDEX). 3
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22547
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   5
+FREQUENCY NUMBER OF BCCH................(FREQ)..  717
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0097 NANIANJANI3    
+
+ADJACENT CELL INDEX.....................(INDEX). 4
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22548
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   5
+FREQUENCY NUMBER OF BCCH................(FREQ)..  715
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0143 NBTBBHATIG1    
+
+ADJACENT CELL INDEX.....................(INDEX). 5
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 46101
+NETWORK COLOUR CODE.....................(NCC)...   0
+BTS COLOUR CODE.........................(BCC)...   5
+FREQUENCY NUMBER OF BCCH................(FREQ)..  608
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0144 NBTBBHATIG2    
+
+ADJACENT CELL INDEX.....................(INDEX). 6
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 46102
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   0
+FREQUENCY NUMBER OF BCCH................(FREQ)..  614
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0091 NMNLMANGOL3    
+
+ADJACENT CELL INDEX.....................(INDEX). 7
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22428
+NETWORK COLOUR CODE.....................(NCC)...   2
+BTS COLOUR CODE.........................(BCC)...   7
+FREQUENCY NUMBER OF BCCH................(FREQ)..  608
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0506 NBTBMNMARK1    
+
+BTS-0506 NBTBMNMARK1     HAS ADJACENT CELL :
+
+SEG-0106 NFTKFUTRAK3    
+
+ADJACENT CELL INDEX.....................(INDEX). 8
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 23703
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   1
+FREQUENCY NUMBER OF BCCH................(FREQ)..  615
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+COMMAND EXECUTED
+
+
+ADJACENT CELL HANDLING IN BSC COMMAND <EA_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EEAO:BTS=506:;7
+
+LOADING PROGRAM VERSION 34.3-0
+
+BSC3i     BSC157BDA                 2017-03-30  14:12:23
+ADJACENT CELL DATA
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0506 NBTBMNMARK1    
+
+ADJACENT CELL INDEX.....................(INDEX). 0
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 4976
+NETWORK COLOUR CODE.....................(NCC)...   0
+BTS COLOUR CODE.........................(BCC)...   0
+FREQUENCY NUMBER OF BCCH................(FREQ)..  722
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   Y
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0508 NBTBMNMARK3    
+
+ADJACENT CELL INDEX.....................(INDEX). 1
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 4978
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   1
+FREQUENCY NUMBER OF BCCH................(FREQ)..  604
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   Y
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0091 NMNLMANGOL3    
+
+ADJACENT CELL INDEX.....................(INDEX). 2
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22428
+NETWORK COLOUR CODE.....................(NCC)...   2
+BTS COLOUR CODE.........................(BCC)...   7
+FREQUENCY NUMBER OF BCCH................(FREQ)..  608
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0092 NGKHGDHLKH1    
+
+ADJACENT CELL INDEX.....................(INDEX). 3
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22536
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   7
+FREQUENCY NUMBER OF BCCH................(FREQ)..  611
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0096 NANIANJANI2    
+
+ADJACENT CELL INDEX.....................(INDEX). 4
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22547
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   5
+FREQUENCY NUMBER OF BCCH................(FREQ)..  717
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0097 NANIANJANI3    
+
+ADJACENT CELL INDEX.....................(INDEX). 5
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22548
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   5
+FREQUENCY NUMBER OF BCCH................(FREQ)..  715
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0106 NFTKFUTRAK3    
+
+ADJACENT CELL INDEX.....................(INDEX). 6
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 23703
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   1
+FREQUENCY NUMBER OF BCCH................(FREQ)..  615
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0144 NBTBBHATIG2    
+
+ADJACENT CELL INDEX.....................(INDEX). 7
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 46102
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   0
+FREQUENCY NUMBER OF BCCH................(FREQ)..  614
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0093 NGKHGDHLKH2    
+
+ADJACENT CELL INDEX.....................(INDEX). 8
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22537
+NETWORK COLOUR CODE.....................(NCC)...   7
+BTS COLOUR CODE.........................(BCC)...   1
+FREQUENCY NUMBER OF BCCH................(FREQ)..  613
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0105 NFTKFUTRAK2    
+
+ADJACENT CELL INDEX.....................(INDEX). 9
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 23702
+NETWORK COLOUR CODE.....................(NCC)...   5
+BTS COLOUR CODE.........................(BCC)...   3
+FREQUENCY NUMBER OF BCCH................(FREQ)..  715
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0507 NBTBMNMARK2    
+
+BTS-0507 NBTBMNMARK2     HAS ADJACENT CELL :
+
+SEG-0363 NXBGBAKAYA3    
+
+ADJACENT CELL INDEX.....................(INDEX). 10
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 27738
+NETWORK COLOUR CODE.....................(NCC)...   2
+BTS COLOUR CODE.........................(BCC)...   1
+FREQUENCY NUMBER OF BCCH................(FREQ)..  724
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+COMMAND EXECUTED
+
+
+ADJACENT CELL HANDLING IN BSC COMMAND <EA_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EEAO:BTS=507:;8
+
+LOADING PROGRAM VERSION 34.3-0
+
+BSC3i     BSC157BDA                 2017-03-30  14:12:25
+ADJACENT CELL DATA
+
+SEG-0508 NBTBMNMARK3    
+
+BTS-0508 NBTBMNMARK3     HAS ADJACENT CELL :
+
+SEG-0506 NBTBMNMARK1    
+
+ADJACENT CELL INDEX.....................(INDEX). 3
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 4976
+NETWORK COLOUR CODE.....................(NCC)...   0
+BTS COLOUR CODE.........................(BCC)...   0
+FREQUENCY NUMBER OF BCCH................(FREQ)..  722
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   Y
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0508 NBTBMNMARK3    
+
+BTS-0508 NBTBMNMARK3     HAS ADJACENT CELL :
+
+SEG-0507 NBTBMNMARK2    
+
+ADJACENT CELL INDEX.....................(INDEX). 4
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 4977
+NETWORK COLOUR CODE.....................(NCC)...   4
+BTS COLOUR CODE.........................(BCC)...   3
+FREQUENCY NUMBER OF BCCH................(FREQ)..  711
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   Y
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0508 NBTBMNMARK3    
+
+BTS-0508 NBTBMNMARK3     HAS ADJACENT CELL :
+
+SEG-0092 NGKHGDHLKH1    
+
+ADJACENT CELL INDEX.....................(INDEX). 5
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 22536
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   7
+FREQUENCY NUMBER OF BCCH................(FREQ)..  611
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0508 NBTBMNMARK3    
+
+BTS-0508 NBTBMNMARK3     HAS ADJACENT CELL :
+
+SEG-0144 NBTBBHATIG2    
+
+ADJACENT CELL INDEX.....................(INDEX). 6
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 46102
+NETWORK COLOUR CODE.....................(NCC)...   6
+BTS COLOUR CODE.........................(BCC)...   0
+FREQUENCY NUMBER OF BCCH................(FREQ)..  614
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0508 NBTBMNMARK3    
+
+BTS-0508 NBTBMNMARK3     HAS ADJACENT CELL :
+
+SEG-0145 NBTBBHATIG3    
+
+ADJACENT CELL INDEX.....................(INDEX). 7
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 46103
+NETWORK COLOUR CODE.....................(NCC)...   5
+BTS COLOUR CODE.........................(BCC)...   2
+FREQUENCY NUMBER OF BCCH................(FREQ)..  711
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+SEG-0508 NBTBMNMARK3    
+
+BTS-0508 NBTBMNMARK3     HAS ADJACENT CELL :
+
+SEG-0182 NKIOKATIHO1    
+
+ADJACENT CELL INDEX.....................(INDEX). 8
+MOBILE COUNTRY CODE.....................(MCC)... 404
+MOBILE NETWORK CODE.....................(MNC)... 93 
+LOCATION AREA CODE......................(LAC)... 5737
+CELL IDENTIFICATION.....................(CI).... 51666
+NETWORK COLOUR CODE.....................(NCC)...   1
+BTS COLOUR CODE.........................(BCC)...   0
+FREQUENCY NUMBER OF BCCH................(FREQ)..  613
+HO MARGIN PBGT..........................(PMRG)..   4 dB
+HO MARGIN LEV...........................(LMRG)..   3 dB
+HO MARGIN QUAL..........................(QMRG)..   0 dB
+ENABLE HO MARGIN LEV QUAL...............(MRGS)..   Y
+HO MARGIN DELAY TIME....................(HOMD)..   0
+HO PRIORITY LEVEL.......................(PRI)...   3
+HO LOAD FACTOR..........................(OF)....   1
+RX LEV MIN CELL.........................(SL)....- 95 dBm
+HO LEVEL UMBRELLA.......................(AUCL)..- 47 dBm
+MS TX PWR MAX GSM.......................(PMAX1).  33 dBm
+MS TX PWR MAX GSM1X00...................(PMAX2).  30 dBm
+SYNCHRONIZED............................(SYNC)..   N
+ TRHO TARGET LEVEL......................(TRHO)..   N (NOT IN USE)
+ ADJACENT CELL LAYER....................(ACL)...   N (NOT IN USE)
+ FAST MOVING THRESHOLD..................(FMT)...   0 (NOT IN USE)
+ MS PWR OPT LEVEL.......................(POPT)..   N (NO OPTIMIZATION)
+ CELL TYPE..............................(CTY)... GSM
+ CHAINED ADJACENT CELL..................(CHAIN).   N
+ HO TARGET AREA.........................(HOTA)..   0
+ DIRECTED RETRY THRESHOLD...............(DRT)...- 85 dBm
+ TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADL)..   N
+ AMR TARGET CELL OF DIRECT ACCESS TO
+ DESIRED LAYER..........................(DADLA).   N
+ ADJACENT GPRS ENABLED..................(AGENA).   Y
+ GPRS RXLEV ACCESS MIN..................(GRXP)..-105 dBm
+ GPRS MS TX PWR MAX CCH.................(GTXP1).  33 dBm
+ GPRS MS TX PWR MAX CCH1X00.............(GTXP2).  30 dBm
+ PRIORITY CLASS.........................(PRC)...   0
+ HCS THRESHOLD..........................(HCS)...   N (NOT IN USE)
+ GPRS TEMPORARY OFFSET..................(GTEO)..   0 dB
+ GPRS PENALTY TIME......................(GPET)..  10 s
+ ROUTING AREA CODE......................(RAC)... 240
+ NCCR EGPRS QUALITY MARGIN..............(EQM)...   0 dB
+ NCCR GPRS QUALITY MARGIN...............(GQM)...   0 dB
+ NCCR AND DTM EGPRS PBGT MARGIN.........(EPM)...   6 dB
+ NCCR AND DTM GPRS PBGT MARGIN..........(GPM)...   6 dB
+ DTM ENABLED............................(DTM)...   N
+ DTM PBGT MARGIN........................(DPM)...   6 dB
+ ENABLE DERIVED HANDOVER POWER..........(DHOPWR)   0
+
+
+ADJACENT CELL HAS NO REFERENCE CELLS
+
+
+COMMAND EXECUTED
+
+
+ADJACENT CELL HANDLING IN BSC COMMAND <EA_>
+<  ZERO
+
+LOADING PROGRAM VERSION 34.1-0
+
+/* DATA UNITS:
+
+   BCF IDENTIFICATION, BTS IDENTIFICATION, BTS NAME,
+   SEGMENT IDENTIFICATION, SEGMENT NAME,
+   TRANSCEIVER IDENTIFICATION, TRX IDENTIFICATION WITH FREQUENCY; */
+
+EROO:BTS
+
+
+/* IDENTIFY BASE TRANSCEIVER STATION (BTS):
+
+   DECIMAL NUMBER  1 ... 2000    ( &, && )
+
+   BCF, SEG, SEGNAME, BTS AND NAME PARAMETERS ARE ALTERNATIVE     */
+
+EROO:BTS=506
+
+/*  IDENTIFY TRANSCEIVER:
+
+    PARAMETER NAMES:
+
+    BCF ...... BASE CONTROL FUNCTION IDENTIFICATION       ( &,&& )
+    SEG ...... SEGMENT IDENTIFICATION                     ( &,&& )
+    SEGNAME .. SEGMENT NAME                               ( & )
+    BTS ...... BASE TRANSCEIVER STATION IDENTIFICATION    ( &,&& )
+    NAME ..... BASE TRANSCEIVER STATION NAME              ( & )
+    TRX ...... TRANSCEIVER IDENTIFICATION                 ( &,&& )
+    IFREQ .... TRANSCEIVER IDENTIFICATION WITH FREQUENCY  ( & )
+
+
+    BCF, SEG, SEGNAME, BTS AND NAME ARE ALTERNATIVE
+    TRX AND IFREQ ARE ALTERNATIVE                                    */
+
+EROO:BTS=506,;
+
+
+
+
+BSC3i     BSC157BDA                 2017-03-30  14:13:27
+
+TRANSCEIVER DATA
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0416                    UNLOCKED         WO                   
+SEG-0506  NBTBMNMARK1    
+BTS-0506  NBTBMNMARK1       UNLOCKED         WO                   
+TRX-001 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE CS3 & CS4)                                             
+                                  HRS       Y              PREF  N
+                                                    
+
+FREQ    628        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     416              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST           47    SIGN      0
+
+D-CH TELECOM LINK SET     98  T4161
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   589-  1     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   589-  1     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   589-  1     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   589-  1     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   589-  2     0     TCHD      0  UNLOCKED        WO             GP         
+  5   589-  2     1     TCHD      0  UNLOCKED        WO             GP         
+  6   589-  2     2     TCHD      0  UNLOCKED        WO             GP         
+  7   589-  2     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0416                    UNLOCKED         WO                   
+SEG-0506  NBTBMNMARK1    
+BTS-0506  NBTBMNMARK1       UNLOCKED         WO                   
+TRX-002 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      Y (EDGE CS3 & CS4)                                             
+                                  HRS       Y              PREF  P
+                                                    
+
+FREQ    722        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     416              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+                                  SIGN      0
+
+D-CH TELECOM LINK SET    344  T4162
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   589         -     MBCCH     -  UNLOCKED        WO                         
+  1   589         -     SDCCB     -  UNLOCKED        WO                         
+  2   589-  3     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   589-  3     3     TCHD      0  UNLOCKED        WO             FR         
+  4   589-  4     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   589-  4     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   589-  4     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   589-  4     3     TCHD      0  UNLOCKED        WO             HR    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+COMMAND EXECUTED
+
+
+TRANSCEIVER DATA HANDLING COMMAND <ER_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EERO:BTS=506,;7
+
+LOADING PROGRAM VERSION 34.1-0
+
+
+
+
+BSC3i     BSC157BDA                 2017-03-30  14:13:29
+
+TRANSCEIVER DATA
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0416                    UNLOCKED         WO                   
+SEG-0507  NBTBMNMARK2    
+BTS-0507  NBTBMNMARK2       UNLOCKED         WO                   
+TRX-005 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      Y (EDGE CS3 & CS4)                                             
+                                  HRS       Y              PREF  P
+                                                    
+
+FREQ    711        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     416              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+                                  SIGN      0
+
+D-CH TELECOM LINK SET    345  T4165
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   589         -     MBCCH     -  UNLOCKED        WO                         
+  1   589         -     SDCCB     -  UNLOCKED        WO                         
+  2   589-  5     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   589-  5     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   589-  6     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   589-  6     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   589-  6     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   589-  6     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0416                    UNLOCKED         WO                   
+SEG-0507  NBTBMNMARK2    
+BTS-0507  NBTBMNMARK2       UNLOCKED         WO                   
+TRX-006 EDGE                UNLOCKED         WO                   
+ BCSU-2
+
+GTRX      Y (EDGE CS3 & CS4)                                             
+                                  HRS       Y              PREF  N
+                                                    
+
+FREQ    727        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     416              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST         1548    SIGN      0
+
+D-CH TELECOM LINK SET    518  T4166
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   589-  7     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   589-  7     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   589-  7     2     TCHD      0  UNLOCKED        WO             GP         
+  3   589-  7     3     TCHD      0  UNLOCKED        WO             GP         
+  4   589-  8     0     TCHD      0  UNLOCKED        WO             GP         
+  5   589-  8     1     TCHD      0  UNLOCKED        WO             GP         
+  6   589-  8     2     TCHD      0  UNLOCKED        WO             GP         
+  7   589-  8     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+COMMAND EXECUTED
+
+
+TRANSCEIVER DATA HANDLING COMMAND <ER_>
+<  
+
+
+MAIN LEVEL COMMAND <___>
+<  EERO:BTS=507,;98
+
+LOADING PROGRAM VERSION 34.1-0
+
+
+
+
+BSC3i     BSC157BDA                 2017-03-30  14:13:38
+
+TRANSCEIVER DATA
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0416                    UNLOCKED         WO                   
+SEG-0508  NBTBMNMARK3    
+BTS-0508  NBTBMNMARK3       UNLOCKED         WO                   
+TRX-009 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE CS3 & CS4)                                             
+                                  HRS       Y              PREF  N
+                                                    
+
+FREQ    624        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     416              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST         1549    SIGN      0
+
+D-CH TELECOM LINK SET    763  T4169
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   589-  9     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   589-  9     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   589-  9     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   589-  9     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   589- 10     0     TCHD      0  UNLOCKED        WO             GP         
+  5   589- 10     1     TCHD      0  UNLOCKED        WO             GP         
+  6   589- 10     2     TCHD      0  UNLOCKED        WO             GP         
+  7   589- 10     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0416                    UNLOCKED         WO                   
+SEG-0508  NBTBMNMARK3    
+BTS-0508  NBTBMNMARK3       UNLOCKED         WO                   
+TRX-010 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      Y (EDGE CS3 & CS4)                                             
+                                  HRS       Y              PREF  P
+                                                    
+
+FREQ    604        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     416              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)
+
+                                  SIGN      0
+
+D-CH TELECOM LINK SET    358  T416A
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   589         -     MBCCH     -  UNLOCKED        WO                         
+  1   589         -     SDCCB     -  UNLOCKED        WO                         
+  2   589- 11     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   589- 11     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   589- 12     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   589- 12     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   589- 12     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  7   589- 12     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+COMMAND EXECUTED
+
+
+TRANSCEIVER DATA HANDLING COMMAND <ER_>
+<  
