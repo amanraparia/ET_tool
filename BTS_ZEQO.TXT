@@ -1,0 +1,2551 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.04.06 17:54:37 =~=~=~=~=~=~=~=~=~=~=~=
+ZEQO:BTS=22&23&3[1D[J24&189&190&192&93&94&95&655&656&657&686&687&688:ALL;
+
+LOADING PROGRAM VERSION 34.12-0
+
+BSC3i     B136BEL1                  2017-04-06  17:55:41
+
+
+BTS PARAMETERS :
+================
+
+SEG-0022   EEKAMBA21      
+BCF-0009   BTS-0022   EEKAMBA21      
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....369
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)...  9
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 05  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM).  90 %
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  30 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...   9     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 369     
+      FREQUENCIES:
+          7    12    14
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-001   U   WO       30  BCCH   -     -     -     -     -     -     -  
+TRX-002   U   WO            0     0     0     0     0     0     0     0  
+TRX-003   U   WO            1     1     1     1     1     1     1     1  
+TRX-004   U   WO            2     2     2     2     2     2     2     2  
+TRX-016   L   BL-USR        -     -     -     -     -     -     -     -  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 16 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 93 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0023   EEKAMBA22      
+BCF-0009   BTS-0023   EEKAMBA22      
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....370
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 22
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 05  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  30 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  22     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 370     
+      FREQUENCIES:
+          1     9    17
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-005   U   WO       21  BCCH   -     -     -     -     -     -     -  
+TRX-006   U   WO            0     0     0     0     0     0     0     0  
+TRX-007   U   WO            1     1     1     1     1     1     1     1  
+TRX-008   U   WO            2     2     2     2     2     2     2     2  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 8 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 50 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0024   EEKAMBA23      
+BCF-0009   BTS-0024   EEKAMBA23      
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....388
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 28
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 05  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM).  90 %
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  30 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  28     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 388     
+      FREQUENCIES:
+          1     8    10    35
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-009   U   WO       25  BCCH   -     -     -     -     -     -     -  
+TRX-010   U   WO            0     0     0     0     0     0     0     0  
+TRX-011   U   WO            1     1     1     1     1     1     1     1  
+TRX-012   U   WO            2     2     2     2     2     2     2     2  
+TRX-025   L   BL-USR        -     -     -     -     -     -     -     -  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 16 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 47 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0022   EEKAMBA21      
+BCF-0009   BTS-0189   EEKAMBA21EX    
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....721
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 12
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-105 dBm
+BOUNDARY 2...............................(BO2)....-100 dBm
+BOUNDARY 3...............................(BO3)....-095 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 00  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  1 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  12     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 721     
+      FREQUENCIES:
+        683   685   687
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-013   U   WO            0     0     0     0     0     0     0     0  
+TRX-014   U   WO            1     1     1     1     1     1     1     1  
+TRX-015   U   WO            2     2     2     2     2     2     2     2  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. N
+DEDICATED GPRS CAPACITY..........................(CDED)... 0 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 1 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  4.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2).  7.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 11.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  1.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  1.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  1.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 11.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 14.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3).  0.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  1.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  1.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  0.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0023   EEKAMBA22      
+BCF-0009   BTS-0190   EEKAMBA22EX    
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....722
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 38
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-105 dBm
+BOUNDARY 2...............................(BO2)....-100 dBm
+BOUNDARY 3...............................(BO3)....-095 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 00  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  2 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  38     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 722     
+      FREQUENCIES:
+        682   684   688   690
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-017   U   WO            0     0     0     0     0     0     0     0  
+TRX-018   U   WO            1     1     1     1     1     1     1     1  
+TRX-019   U   WO            2     2     2     2     2     2     2     2  
+TRX-020   U   WO            3     3     3     3     3     3     3     3  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. N
+DEDICATED GPRS CAPACITY..........................(CDED)... 0 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 1 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  4.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2).  7.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 11.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  1.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  1.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  1.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 11.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 14.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3).  0.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  1.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  1.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  0.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0024   EEKAMBA23      
+BCF-0009   BTS-0192   EEKAMBA23EX    
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....725
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)...  6
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-105 dBm
+BOUNDARY 2...............................(BO2)....-100 dBm
+BOUNDARY 3...............................(BO3)....-095 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 00  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  1 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...   6     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 725     
+      FREQUENCIES:
+        682   684   686   688
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-021   U   WO            0     0     0     0     0     0     0     0  
+TRX-022   U   WO            1     1     1     1     1     1     1     1  
+TRX-023   U   WO            2     2     2     2     2     2     2     2  
+TRX-024   U   WO            3     3     3     3     3     3     3     3  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. N
+DEDICATED GPRS CAPACITY..........................(CDED)... 0 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 1 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  4.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2).  7.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 11.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  1.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  1.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  1.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 11.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 14.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3).  0.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  1.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  1.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  0.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0093   EADHANG11      
+BCF-0034   BTS-0093   EADHANG11      
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+CELL IDENTITY............................(CI)..... 14190
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+BS IDENTITY CODE.........................(BSIC)
+
+   NETWORK COLOUR CODE...................(NCC)...  7
+   BTS COLOUR CODE.......................(BCC)...  4
+
+LOCATION AREA ID.........................(LAI)
+   MOBILE COUNTRY CODE...................(MCC)...  405
+   MOBILE NETWORK CODE...................(MNC)...  52
+   LOCATION AREA CODE....................(LAC)...  00349
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....336
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 39
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+CELL BARRED..............................(BAR).... N
+CALL RE-ESTABLISHMENT ALLOWED............(RE)..... Y
+EMERGENCY CALL RESTRICTED................(EC)..... N
+PLMN PERMITTED...........................(PLMN)... 00,01,02,03,
+                                                   04,05,06,07
+NOT ALLOWED ACCESS CLASSES...............(ACC).... -
+ADJACENCY ON OTHER BAND..................(DBC).... Y   
+DIRECTED RETRY USED......................(DR)..... Y   
+INTELLIGENT DIRECTED RETRY USED..........(IDR).... N   
+CELL TYPE................................(CTY).... GSM
+MIN TIME LIMIT DIRECTED RETRY............(MIDR)...  2
+MAX TIME LIMIT DIRECTED RETRY............(MADR)...  7
+DIRECTED RETRY METHOD....................(DRM)....  1
+
+CELL RESELECT HYSTERESIS.................(HYS).... 08  dB
+MS TXPWR MAX CCH.........................(TXP1)... 33  dBm
+MS TXPWR MAX CCH 1X00....................(TXP2)... 30  dBm
+RXLEV ACCESS MIN.........................(RXP)....-105 dBm
+RADIO LINK TIMEOUT.......................(RLT).... 28  SACCH BLOCKS
+POWER OFFSET.............................(PO)..... 00  dB
+GPRS RXLEV ACCESS MIN....................(GRXP)...-105 dBm
+GPRS MS TXPWR MAX CCH....................(GTXP1).. 33  dBm
+GPRS MS TXPWR MAX CCH 1X00...............(GTXP2).. 30  dBm
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+DIRECT GPRS ACCESS.......................(DIRE)... 0 dBm
+RA RESELECT HYSTERESIS...................(RRH).... 4 dB
+PRIORITY CLASS...........................(PRC).... 0
+HCS THRESHOLD............................(HCS).... -
+
+MAX QUEUE LENGTH.........................(MQL).... 050 %
+TIME LIMIT CALL..........................(TLC).... 10  SECONDS
+TIME LIMIT HANDOVER......................(TLH).... 05  SECONDS
+QUEUE PRIORITY USED......................(QPU).... Y
+   QUEUEING PRIORITY CALL................(QPC).... 10
+   QUEUEING PRIORITY URGENT HANDOVER.....(QPH).... 09
+   QUEUEING PRIORITY NON-URGENT HANDOVER.(QPN).... 09
+MS PRIORITY USED.........................(MPU).... Y
+
+NUMBER OF BLOCKS FOR ACCESS GRANT MSG....(AG)..... 02
+NUMBER OF MULTIFRAMES....................(MFR).... 04
+TIMER FOR PERIODIC MS LOCATION UPDATING..(PER).... 04.0 HOURS
+ALLOW IMSI ATTACH DETACH.................(ATT).... Y
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+AVERAGING PERIOD.........................(AP)..... 06
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+DTX MODE.................................(DTX)....  1  (MS SHALL USE DTX)
+BTS MEASURE AVERAGE......................(BMA).... 02
+MS TX PWR MAX GSM........................(PMAX1).. 33  dBm
+MS TX PWR MAX GSM1X00....................(PMAX2).. 30  dBm
+MS TX PWR MIN............................(PMIN)... 05  dBm
+MAX NUMBER OF RETRANSMISSION.............(RET).... 01
+MAX NUMBER OF REPETITION.................(NY1).... 05
+NUMBER OF SLOTS SPREAD TRANS.............(SLO).... 32
+SMS CB USED..............................(CB).....  N
+BTS LOAD THRESHOLD.......................(BLT).... 070 %
+MS MAX DISTANCE IN CALL SETUP............(DMAX)... 255 (NO REJECTION)
+TRX PRIORITY IN TCH ALLOCATION...........(TRP)....  1
+CELL LOAD FOR CHANNEL SEARCH.............(CLC).... 0 %
+RX DIVERSITY.............................(RDIV)...  Y
+TCH RATE INTRA-CELL HANDOVER.............(TRIH)...  0
+ (NO CONSTRAINTS)
+LOWER LIMIT FOR FR TCH RESOURCES.........(FRL)....  95 %
+UPPER LIMIT FOR FR TCH RESOURCES.........(FRU)....  97 %
+AMR LOWER LIMIT FOR SEG FR RESOURCES.....(AFRL)...  95 %
+AMR UPPER LIMIT FOR SEG FR RESOURCES.....(AFRU)...  97 %
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NEW ESTABLISHMENT CAUSES SUPPORT.........(NECI)...  N
+MULTIBAND CELL REPORTING.................(MBR)....  1
+EARLY SENDING INDICATION.................(ESI)....  Y
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+SCALE ORD................................(SCO)....   0
+AMH UPPER LOAD THRESHOLD ................(AUT)...  NOT USED
+AMH LOWER LOAD THRESHOLD ................(ALT)...  NOT USED
+AMH MAX LOAD OF TARGET CELL .............(AML)...  NOT USED
+TRHO GUARD TIME .........................(TGT)...  NOT USED
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+CA LIST PER BTS ENABLED..................(CABE)..  N
+C2 RESELECTION PARAMETERS:
+   CELL RESELECTION PARAMETER INDEX......(PI).....   N  
+   CELL BAR QUALIFY......................(QUA)....   N
+   CELL RESELECT OFFSET..................(REO)....   0 dB
+   TEMPORARY OFFSET......................(TEO)....   0 dB
+   PENALTY TIME..........................(PET)....   20 s
+ISHO RESELECTION PARAMETERS:
+   THRESHOLD TO SEARCH UTRAN CELLS ......(QSRI)..  always
+   GPRS THRESHOLD TO SEARCH UTRAN CELLS .(QSRP)..  always
+   FDD AND TDD CELL RESELECT OFFSET .....(FDD)...  always
+   MINIMUM FDD THRESHOLD ................(FDM)...  -14 dB
+   MINIMUM FDD THRESHOLD OFFSET  ........(FDMO)..     0 dB
+   MINIMUM RSCP THRESHOLD ...............(FDR)...  -104 dB
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+IBHO PARAMETERS:
+   IBHO GSM ENABLED .....................(IGE)...  N
+   IBHO WCDMA ENABLED ...................(IWE)...  N
+
+
+TRUNK RESERVATION USED...................(TR).....   N  
+LIMIT FOR FREE TCHS......................(LIMIT)..  16
+TCHS RESERVED FOR PRIORITY SUBSCRIBERS...(TCRP)...   0
+RESTRICTED USE OF PRIORITY CHANNELS......(RUP)....   Y
+RESERVATION METHOD.......................(REM).... DYN
+
+ TRAFFIC TYPE                 TABLE
+    1  (GSM CALL SETUP)         -
+    2  (MCN CALL SETUP)         -
+    3  (GSM HANDOVER)           -
+    4  (MCN HANDOVER)           -
+    5  (PRIORITY CALL SETUP)    -
+    6  (PRIORITY HANDOVER)      -
+    7                           -
+    8                           -
+    9                           -
+   10                           -
+
+ID. OF BCCH FREQUENCY LIST........(IDLE)...    7
+BCCH ALLOC. USAGE FOR ACTIVE MS...(ACT).... IDLE (BCCH FREQUENCY LIST USED)
+
+MEASUREMENT BCCH ALLOCATION LIST..(MEAS)...  Y
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  39     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 336     
+      FREQUENCIES:
+          5     8    11    13    17
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-001   U   WO            0     0     0     0     0     0     0     0  
+TRX-002   U   WO            1     1     1     1     1     1     1     1  
+TRX-003   U   WO       20  BCCH   -     -     -     -     -     -     -  
+TRX-004   U   WO            2     2     2     2     2     2     2     2  
+TRX-013   U   WO            3     3     3     3     3     3     3     3  
+TRX-014   U   WO            4     4     4     4     4     4     4     4  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+HSCSD UPGRADE GUARD TIME.................(HUT)..     0 s
+HSCSD DOWNGRADE GUARD TIME...............(HDT)..     0 s
+HSCSD UPGRADE GAIN.......................(HUG)....   0 %
+HSCSD MINIMUM EXHAUST....................(HME)....   1
+
+GPRS ENABLED.....................................(GENA)... Y
+   PACKET SERVICE ENTITY IDENTIFIER..............(PSEI)... 14
+   SERVING PCU
+     BCSU INDEX........................................... 6
+     PCU INDEX............................................ 4
+     PCU ID............................................... 14
+     PCU OBJECT STATE..................................... WORKING   
+   NETWORK SERVICE ENTITY IDENTIFIER.............(NSEI)... 51364
+   BSSGP VIRTUAL CONNECTION IDENTIFIER...........(BVCI)... 10093
+   BVCI OPERATIONAL STATE................................. WO_EX
+ROUTING AREA IDENTIFICATION......................(RAI)
+   MOBILE COUNTRY CODE...........................(MCC).... 405
+   MOBILE NETWORK CODE...........................(MNC).... 52 
+   LOCATION AREA CODE............................(LAC).... 00349
+ROUTING AREA CODE................................(RAC).... 41
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 7 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 27 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+PREFER BCCH FREQUENCY GPRS.......................(BFG).... 2
+DL ADAPTION PROBABILITY THRESHOLD................(DLA).... 20 %
+UL ADAPTION PROBABILITY THRESHOLD................(ULA).... 10 %
+DL BLER CROSSPOINT CS SELECTION NO HOP...........(DLB).... 90 %
+UL BLER CROSSPOINT CS SELECTION NO HOP...........(ULB).... 90 %
+DL BLER CROSSPOINT CS SELECTION HOP..............(DLBH)... 20 %
+UL BLER CROSSPOINT CS SELECTION HOP..............(ULBH)... 24 %
+CODING SCHEME NO HOP.............................(COD).... 2
+CODING SCHEME HOP................................(CODH)... 0
+INITIAL MCS FOR ACKNOWLEDGED MODE................(MCA).... 6
+INITIAL MCS FOR UNACKNOWLEDGED MODE..............(MCU).... 5
+MAXIMUM BLER IN ACKNOWLEDGED MODE................(BLA).... 90 %
+MAXIMUM BLER IN UNACKNOWLEDGED MODE..............(BLU).... 10 (1%)
+MEAN BEP OFFSET GMSK.............................(MBG).... 0
+MEAN BEP OFFSET 8PSK.............................(MBP).... 0
+EGPRS LINK ADAPTATION ENABLED....................(ELA).... 2
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+GPRS DL PC ENABLED...............................(DLPC)... N
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+DTM ENABLED......................................(DENA)... N
+
+NCCR RXLEV TRANSFER MODE WINDOW SIZE............(NRTW)... 5
+NCCR RXLEV IDLE MODE WINDOW SIZE................(NRIW)... 5
+NCCR NUMBER OF ZERO RESULTS.....................(NNZR)... 2
+NCCR OTHER PCU CELL OFFSET......................(NOPO)... 04 dB
+QC GPRS DL RLC ACK THROUGHPUT THRESHOLD.........(QGDRT).. 6 kbit/s
+QC GPRS UL RLC ACK THROUGHPUT THRESHOLD.........(QGURT).. 6 kbit/s
+QC EGPRS DL RLC ACK THROUGHPUT THRESHOLD........(QEDRT).. 10 kbit/s
+QC EGPRS UL RLC ACK THROUGHPUT THRESHOLD........(QEURT).. 10 kbit/s
+
+AMR RADIO LINK TIMEOUT.......................(ARLT)... 36  SACCH BLOCKS
+AMR HR RADIO LINK TIMEOUT....................(AHRLT).. 36  SACCH BLOCKS
+UL RADIO LINK TIMEOUT INCREASE STEP..........(URIS)... 10  SACCH BLOCKS
+AMR UL RADIO LINK TIMEOUT INCREASE STEP......(AURIS).. 10  SACCH BLOCKS
+AMR HR UL RADIO LINK TIMEOUT INCREASE STEP...(AHURIS). 10  SACCH BLOCKS
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0094   EADHANG12      
+BCF-0034   BTS-0094   EADHANG12      
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+CELL IDENTITY............................(CI)..... 14195
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+BS IDENTITY CODE.........................(BSIC)
+
+   NETWORK COLOUR CODE...................(NCC)...  0
+   BTS COLOUR CODE.......................(BCC)...  6
+
+LOCATION AREA ID.........................(LAI)
+   MOBILE COUNTRY CODE...................(MCC)...  405
+   MOBILE NETWORK CODE...................(MNC)...  52
+   LOCATION AREA CODE....................(LAC)...  00349
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....707
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 44
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+CELL BARRED..............................(BAR).... N
+CALL RE-ESTABLISHMENT ALLOWED............(RE)..... Y
+EMERGENCY CALL RESTRICTED................(EC)..... N
+PLMN PERMITTED...........................(PLMN)... 00,01,02,03,
+                                                   04,05,06,07
+NOT ALLOWED ACCESS CLASSES...............(ACC).... -
+ADJACENCY ON OTHER BAND..................(DBC).... Y   
+DIRECTED RETRY USED......................(DR)..... Y   
+INTELLIGENT DIRECTED RETRY USED..........(IDR).... N   
+CELL TYPE................................(CTY).... GSM
+MIN TIME LIMIT DIRECTED RETRY............(MIDR)...  2
+MAX TIME LIMIT DIRECTED RETRY............(MADR)...  7
+DIRECTED RETRY METHOD....................(DRM)....  1
+
+CELL RESELECT HYSTERESIS.................(HYS).... 14  dB
+MS TXPWR MAX CCH.........................(TXP1)... 33  dBm
+MS TXPWR MAX CCH 1X00....................(TXP2)... 30  dBm
+RXLEV ACCESS MIN.........................(RXP)....-105 dBm
+RADIO LINK TIMEOUT.......................(RLT).... 28  SACCH BLOCKS
+POWER OFFSET.............................(PO)..... 00  dB
+GPRS RXLEV ACCESS MIN....................(GRXP)...-105 dBm
+GPRS MS TXPWR MAX CCH....................(GTXP1).. 33  dBm
+GPRS MS TXPWR MAX CCH 1X00...............(GTXP2).. 30  dBm
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+DIRECT GPRS ACCESS.......................(DIRE)... 0 dBm
+RA RESELECT HYSTERESIS...................(RRH).... 4 dB
+PRIORITY CLASS...........................(PRC).... 0
+HCS THRESHOLD............................(HCS).... -
+
+MAX QUEUE LENGTH.........................(MQL).... 050 %
+TIME LIMIT CALL..........................(TLC).... 10  SECONDS
+TIME LIMIT HANDOVER......................(TLH).... 05  SECONDS
+QUEUE PRIORITY USED......................(QPU).... Y
+   QUEUEING PRIORITY CALL................(QPC).... 10
+   QUEUEING PRIORITY URGENT HANDOVER.....(QPH).... 09
+   QUEUEING PRIORITY NON-URGENT HANDOVER.(QPN).... 09
+MS PRIORITY USED.........................(MPU).... Y
+
+NUMBER OF BLOCKS FOR ACCESS GRANT MSG....(AG)..... 02
+NUMBER OF MULTIFRAMES....................(MFR).... 04
+TIMER FOR PERIODIC MS LOCATION UPDATING..(PER).... 04.0 HOURS
+ALLOW IMSI ATTACH DETACH.................(ATT).... Y
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+AVERAGING PERIOD.........................(AP)..... 06
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+DTX MODE.................................(DTX)....  1  (MS SHALL USE DTX)
+BTS MEASURE AVERAGE......................(BMA).... 02
+MS TX PWR MAX GSM........................(PMAX1).. 33  dBm
+MS TX PWR MAX GSM1X00....................(PMAX2).. 30  dBm
+MS TX PWR MIN............................(PMIN)... 05  dBm
+MAX NUMBER OF RETRANSMISSION.............(RET).... 01
+MAX NUMBER OF REPETITION.................(NY1).... 05
+NUMBER OF SLOTS SPREAD TRANS.............(SLO).... 32
+SMS CB USED..............................(CB).....  N
+BTS LOAD THRESHOLD.......................(BLT).... 070 %
+MS MAX DISTANCE IN CALL SETUP............(DMAX)... 255 (NO REJECTION)
+TRX PRIORITY IN TCH ALLOCATION...........(TRP)....  1
+CELL LOAD FOR CHANNEL SEARCH.............(CLC).... 0 %
+RX DIVERSITY.............................(RDIV)...  Y
+TCH RATE INTRA-CELL HANDOVER.............(TRIH)...  0
+ (NO CONSTRAINTS)
+LOWER LIMIT FOR FR TCH RESOURCES.........(FRL)....  95 %
+UPPER LIMIT FOR FR TCH RESOURCES.........(FRU)....  97 %
+AMR LOWER LIMIT FOR SEG FR RESOURCES.....(AFRL)...  95 %
+AMR UPPER LIMIT FOR SEG FR RESOURCES.....(AFRU)...  97 %
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NEW ESTABLISHMENT CAUSES SUPPORT.........(NECI)...  N
+MULTIBAND CELL REPORTING.................(MBR)....  1
+EARLY SENDING INDICATION.................(ESI)....  Y
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+SCALE ORD................................(SCO)....   0
+AMH UPPER LOAD THRESHOLD ................(AUT)...  NOT USED
+AMH LOWER LOAD THRESHOLD ................(ALT)...  NOT USED
+AMH MAX LOAD OF TARGET CELL .............(AML)...  NOT USED
+TRHO GUARD TIME .........................(TGT)...  NOT USED
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+CA LIST PER BTS ENABLED..................(CABE)..  N
+C2 RESELECTION PARAMETERS:
+   CELL RESELECTION PARAMETER INDEX......(PI).....   N  
+   CELL BAR QUALIFY......................(QUA)....   N
+   CELL RESELECT OFFSET..................(REO)....   0 dB
+   TEMPORARY OFFSET......................(TEO)....   0 dB
+   PENALTY TIME..........................(PET)....   20 s
+ISHO RESELECTION PARAMETERS:
+   THRESHOLD TO SEARCH UTRAN CELLS ......(QSRI)..  always
+   GPRS THRESHOLD TO SEARCH UTRAN CELLS .(QSRP)..  always
+   FDD AND TDD CELL RESELECT OFFSET .....(FDD)...  always
+   MINIMUM FDD THRESHOLD ................(FDM)...  -14 dB
+   MINIMUM FDD THRESHOLD OFFSET  ........(FDMO)..     0 dB
+   MINIMUM RSCP THRESHOLD ...............(FDR)...  -104 dB
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+IBHO PARAMETERS:
+   IBHO GSM ENABLED .....................(IGE)...  N
+   IBHO WCDMA ENABLED ...................(IWE)...  N
+
+
+TRUNK RESERVATION USED...................(TR).....   N  
+LIMIT FOR FREE TCHS......................(LIMIT)..  16
+TCHS RESERVED FOR PRIORITY SUBSCRIBERS...(TCRP)...   0
+RESTRICTED USE OF PRIORITY CHANNELS......(RUP)....   Y
+RESERVATION METHOD.......................(REM).... DYN
+
+ TRAFFIC TYPE                 TABLE
+    1  (GSM CALL SETUP)         -
+    2  (MCN CALL SETUP)         -
+    3  (GSM HANDOVER)           -
+    4  (MCN HANDOVER)           -
+    5  (PRIORITY CALL SETUP)    -
+    6  (PRIORITY HANDOVER)      -
+    7                           -
+    8                           -
+    9                           -
+   10                           -
+
+ID. OF BCCH FREQUENCY LIST........(IDLE)...    7
+BCCH ALLOC. USAGE FOR ACTIVE MS...(ACT).... IDLE (BCCH FREQUENCY LIST USED)
+
+MEASUREMENT BCCH ALLOCATION LIST..(MEAS)...  Y
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  44     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 707     
+      FREQUENCIES:
+          7     9    18    33    35
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-005   U   WO       29  BCCH   -     -     -     -     -     -     -  
+TRX-006   U   WO            1     1     1     1     1     1     1     1  
+TRX-007   U   WO            2     2     2     2     2     2     2     2  
+TRX-008   U   WO            0     0     0     0     0     0     0     0  
+TRX-017   U   WO            3     3     3     3     3     3     3     3  
+TRX-018   U   WO            4     4     4     4     4     4     4     4  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+HSCSD UPGRADE GUARD TIME.................(HUT)..     0 s
+HSCSD DOWNGRADE GUARD TIME...............(HDT)..     0 s
+HSCSD UPGRADE GAIN.......................(HUG)....   0 %
+HSCSD MINIMUM EXHAUST....................(HME)....   1
+
+GPRS ENABLED.....................................(GENA)... Y
+   PACKET SERVICE ENTITY IDENTIFIER..............(PSEI)... 13
+   SERVING PCU
+     BCSU INDEX........................................... 6
+     PCU INDEX............................................ 3
+     PCU ID............................................... 13
+     PCU OBJECT STATE..................................... WORKING   
+   NETWORK SERVICE ENTITY IDENTIFIER.............(NSEI)... 51363
+   BSSGP VIRTUAL CONNECTION IDENTIFIER...........(BVCI)... 10094
+   BVCI OPERATIONAL STATE................................. WO_EX
+ROUTING AREA IDENTIFICATION......................(RAI)
+   MOBILE COUNTRY CODE...........................(MCC).... 405
+   MOBILE NETWORK CODE...........................(MNC).... 52 
+   LOCATION AREA CODE............................(LAC).... 00349
+ROUTING AREA CODE................................(RAC).... 41
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 5 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 29 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+PREFER BCCH FREQUENCY GPRS.......................(BFG).... 0
+DL ADAPTION PROBABILITY THRESHOLD................(DLA).... 20 %
+UL ADAPTION PROBABILITY THRESHOLD................(ULA).... 10 %
+DL BLER CROSSPOINT CS SELECTION NO HOP...........(DLB).... 90 %
+UL BLER CROSSPOINT CS SELECTION NO HOP...........(ULB).... 90 %
+DL BLER CROSSPOINT CS SELECTION HOP..............(DLBH)... 20 %
+UL BLER CROSSPOINT CS SELECTION HOP..............(ULBH)... 24 %
+CODING SCHEME NO HOP.............................(COD).... 2
+CODING SCHEME HOP................................(CODH)... 0
+INITIAL MCS FOR ACKNOWLEDGED MODE................(MCA).... 6
+INITIAL MCS FOR UNACKNOWLEDGED MODE..............(MCU).... 5
+MAXIMUM BLER IN ACKNOWLEDGED MODE................(BLA).... 90 %
+MAXIMUM BLER IN UNACKNOWLEDGED MODE..............(BLU).... 10 (1%)
+MEAN BEP OFFSET GMSK.............................(MBG).... 0
+MEAN BEP OFFSET 8PSK.............................(MBP).... 0
+EGPRS LINK ADAPTATION ENABLED....................(ELA).... 2
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+GPRS DL PC ENABLED...............................(DLPC)... N
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+DTM ENABLED......................................(DENA)... N
+
+NCCR RXLEV TRANSFER MODE WINDOW SIZE............(NRTW)... 5
+NCCR RXLEV IDLE MODE WINDOW SIZE................(NRIW)... 5
+NCCR NUMBER OF ZERO RESULTS.....................(NNZR)... 2
+NCCR OTHER PCU CELL OFFSET......................(NOPO)... 04 dB
+QC GPRS DL RLC ACK THROUGHPUT THRESHOLD.........(QGDRT).. 6 kbit/s
+QC GPRS UL RLC ACK THROUGHPUT THRESHOLD.........(QGURT).. 6 kbit/s
+QC EGPRS DL RLC ACK THROUGHPUT THRESHOLD........(QEDRT).. 10 kbit/s
+QC EGPRS UL RLC ACK THROUGHPUT THRESHOLD........(QEURT).. 10 kbit/s
+
+AMR RADIO LINK TIMEOUT.......................(ARLT)... 36  SACCH BLOCKS
+AMR HR RADIO LINK TIMEOUT....................(AHRLT).. 36  SACCH BLOCKS
+UL RADIO LINK TIMEOUT INCREASE STEP..........(URIS)... 10  SACCH BLOCKS
+AMR UL RADIO LINK TIMEOUT INCREASE STEP......(AURIS).. 10  SACCH BLOCKS
+AMR HR UL RADIO LINK TIMEOUT INCREASE STEP...(AHURIS). 10  SACCH BLOCKS
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0095   EADHANG13      
+BCF-0034   BTS-0095   EADHANG13      
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+CELL IDENTITY............................(CI)..... 14199
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+BS IDENTITY CODE.........................(BSIC)
+
+   NETWORK COLOUR CODE...................(NCC)...  2
+   BTS COLOUR CODE.......................(BCC)...  0
+
+LOCATION AREA ID.........................(LAI)
+   MOBILE COUNTRY CODE...................(MCC)...  405
+   MOBILE NETWORK CODE...................(MNC)...  52
+   LOCATION AREA CODE....................(LAC)...  00349
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....311
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  -
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..  -
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 50
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+CELL BARRED..............................(BAR).... N
+CALL RE-ESTABLISHMENT ALLOWED............(RE)..... Y
+EMERGENCY CALL RESTRICTED................(EC)..... N
+PLMN PERMITTED...........................(PLMN)... 00,01,02,03,
+                                                   04,05,06,07
+NOT ALLOWED ACCESS CLASSES...............(ACC).... -
+ADJACENCY ON OTHER BAND..................(DBC).... Y   
+DIRECTED RETRY USED......................(DR)..... Y   
+INTELLIGENT DIRECTED RETRY USED..........(IDR).... N   
+CELL TYPE................................(CTY).... GSM
+MIN TIME LIMIT DIRECTED RETRY............(MIDR)...  2
+MAX TIME LIMIT DIRECTED RETRY............(MADR)...  7
+DIRECTED RETRY METHOD....................(DRM)....  1
+
+CELL RESELECT HYSTERESIS.................(HYS).... 14  dB
+MS TXPWR MAX CCH.........................(TXP1)... 33  dBm
+MS TXPWR MAX CCH 1X00....................(TXP2)... 30  dBm
+RXLEV ACCESS MIN.........................(RXP)....-105 dBm
+RADIO LINK TIMEOUT.......................(RLT).... 28  SACCH BLOCKS
+POWER OFFSET.............................(PO)..... 00  dB
+GPRS RXLEV ACCESS MIN....................(GRXP)...-105 dBm
+GPRS MS TXPWR MAX CCH....................(GTXP1).. 33  dBm
+GPRS MS TXPWR MAX CCH 1X00...............(GTXP2).. 30  dBm
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+DIRECT GPRS ACCESS.......................(DIRE)... 0 dBm
+RA RESELECT HYSTERESIS...................(RRH).... 4 dB
+PRIORITY CLASS...........................(PRC).... 0
+HCS THRESHOLD............................(HCS).... -
+
+MAX QUEUE LENGTH.........................(MQL).... 050 %
+TIME LIMIT CALL..........................(TLC).... 10  SECONDS
+TIME LIMIT HANDOVER......................(TLH).... 05  SECONDS
+QUEUE PRIORITY USED......................(QPU).... Y
+   QUEUEING PRIORITY CALL................(QPC).... 10
+   QUEUEING PRIORITY URGENT HANDOVER.....(QPH).... 09
+   QUEUEING PRIORITY NON-URGENT HANDOVER.(QPN).... 09
+MS PRIORITY USED.........................(MPU).... Y
+
+NUMBER OF BLOCKS FOR ACCESS GRANT MSG....(AG)..... 02
+NUMBER OF MULTIFRAMES....................(MFR).... 04
+TIMER FOR PERIODIC MS LOCATION UPDATING..(PER).... 04.0 HOURS
+ALLOW IMSI ATTACH DETACH.................(ATT).... Y
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+AVERAGING PERIOD.........................(AP)..... 06
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+DTX MODE.................................(DTX)....  1  (MS SHALL USE DTX)
+BTS MEASURE AVERAGE......................(BMA).... 02
+MS TX PWR MAX GSM........................(PMAX1).. 33  dBm
+MS TX PWR MAX GSM1X00....................(PMAX2).. 30  dBm
+MS TX PWR MIN............................(PMIN)... 05  dBm
+MAX NUMBER OF RETRANSMISSION.............(RET).... 01
+MAX NUMBER OF REPETITION.................(NY1).... 05
+NUMBER OF SLOTS SPREAD TRANS.............(SLO).... 32
+SMS CB USED..............................(CB).....  N
+BTS LOAD THRESHOLD.......................(BLT).... 070 %
+MS MAX DISTANCE IN CALL SETUP............(DMAX)... 255 (NO REJECTION)
+TRX PRIORITY IN TCH ALLOCATION...........(TRP)....  1
+CELL LOAD FOR CHANNEL SEARCH.............(CLC).... 0 %
+RX DIVERSITY.............................(RDIV)...  Y
+TCH RATE INTRA-CELL HANDOVER.............(TRIH)...  0
+ (NO CONSTRAINTS)
+LOWER LIMIT FOR FR TCH RESOURCES.........(FRL)....  95 %
+UPPER LIMIT FOR FR TCH RESOURCES.........(FRU)....  97 %
+AMR LOWER LIMIT FOR SEG FR RESOURCES.....(AFRL)...  95 %
+AMR UPPER LIMIT FOR SEG FR RESOURCES.....(AFRU)...  97 %
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NEW ESTABLISHMENT CAUSES SUPPORT.........(NECI)...  N
+MULTIBAND CELL REPORTING.................(MBR)....  1
+EARLY SENDING INDICATION.................(ESI)....  Y
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+SCALE ORD................................(SCO)....   0
+AMH UPPER LOAD THRESHOLD ................(AUT)...  NOT USED
+AMH LOWER LOAD THRESHOLD ................(ALT)...  NOT USED
+AMH MAX LOAD OF TARGET CELL .............(AML)...  NOT USED
+TRHO GUARD TIME .........................(TGT)...  NOT USED
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+CA LIST PER BTS ENABLED..................(CABE)..  N
+C2 RESELECTION PARAMETERS:
+   CELL RESELECTION PARAMETER INDEX......(PI).....   N  
+   CELL BAR QUALIFY......................(QUA)....   N
+   CELL RESELECT OFFSET..................(REO)....   0 dB
+   TEMPORARY OFFSET......................(TEO)....   0 dB
+   PENALTY TIME..........................(PET)....   20 s
+ISHO RESELECTION PARAMETERS:
+   THRESHOLD TO SEARCH UTRAN CELLS ......(QSRI)..  always
+   GPRS THRESHOLD TO SEARCH UTRAN CELLS .(QSRP)..  always
+   FDD AND TDD CELL RESELECT OFFSET .....(FDD)...  always
+   MINIMUM FDD THRESHOLD ................(FDM)...  -14 dB
+   MINIMUM FDD THRESHOLD OFFSET  ........(FDMO)..     0 dB
+   MINIMUM RSCP THRESHOLD ...............(FDR)...  -104 dB
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+IBHO PARAMETERS:
+   IBHO GSM ENABLED .....................(IGE)...  N
+   IBHO WCDMA ENABLED ...................(IWE)...  N
+
+
+TRUNK RESERVATION USED...................(TR).....   N  
+LIMIT FOR FREE TCHS......................(LIMIT)..  16
+TCHS RESERVED FOR PRIORITY SUBSCRIBERS...(TCRP)...   0
+RESTRICTED USE OF PRIORITY CHANNELS......(RUP)....   Y
+RESERVATION METHOD.......................(REM).... DYN
+
+ TRAFFIC TYPE                 TABLE
+    1  (GSM CALL SETUP)         -
+    2  (MCN CALL SETUP)         -
+    3  (GSM HANDOVER)           -
+    4  (MCN HANDOVER)           -
+    5  (PRIORITY CALL SETUP)    -
+    6  (PRIORITY HANDOVER)      -
+    7                           -
+    8                           -
+    9                           -
+   10                           -
+
+ID. OF BCCH FREQUENCY LIST........(IDLE)...    7
+BCCH ALLOC. USAGE FOR ACTIVE MS...(ACT).... IDLE (BCCH FREQUENCY LIST USED)
+
+MEASUREMENT BCCH ALLOCATION LIST..(MEAS)...  Y
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  50     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 311     
+      FREQUENCIES:
+          3    11    15    36
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:   -  
+                                            PS:   -  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL)..   -     
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-009   U   WO            0     0     0     0     0     0     0     0  
+TRX-010   U   WO            1     1     1     1     1     1     1     1  
+TRX-011   U   WO            2     2     2     2     2     2     2     2  
+TRX-012   U   WO       24  BCCH   -     -     -     -     -     -     -  
+TRX-015   U   WO            3     3     3     3     3     3     3     3  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+HSCSD UPGRADE GUARD TIME.................(HUT)..     0 s
+HSCSD DOWNGRADE GUARD TIME...............(HDT)..     0 s
+HSCSD UPGRADE GAIN.......................(HUG)....   0 %
+HSCSD MINIMUM EXHAUST....................(HME)....   1
+
+GPRS ENABLED.....................................(GENA)... Y
+   PACKET SERVICE ENTITY IDENTIFIER..............(PSEI)... 13
+   SERVING PCU
+     BCSU INDEX........................................... 6
+     PCU INDEX............................................ 3
+     PCU ID............................................... 13
+     PCU OBJECT STATE..................................... WORKING   
+   NETWORK SERVICE ENTITY IDENTIFIER.............(NSEI)... 51363
+   BSSGP VIRTUAL CONNECTION IDENTIFIER...........(BVCI)... 10095
+   BVCI OPERATIONAL STATE................................. WO_EX
+ROUTING AREA IDENTIFICATION......................(RAI)
+   MOBILE COUNTRY CODE...........................(MCC).... 405
+   MOBILE NETWORK CODE...........................(MNC).... 52 
+   LOCATION AREA CODE............................(LAC).... 00349
+ROUTING AREA CODE................................(RAC).... 41
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 5 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 22 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+PREFER BCCH FREQUENCY GPRS.......................(BFG).... 0
+DL ADAPTION PROBABILITY THRESHOLD................(DLA).... 20 %
+UL ADAPTION PROBABILITY THRESHOLD................(ULA).... 10 %
+DL BLER CROSSPOINT CS SELECTION NO HOP...........(DLB).... 90 %
+UL BLER CROSSPOINT CS SELECTION NO HOP...........(ULB).... 90 %
+DL BLER CROSSPOINT CS SELECTION HOP..............(DLBH)... 20 %
+UL BLER CROSSPOINT CS SELECTION HOP..............(ULBH)... 24 %
+CODING SCHEME NO HOP.............................(COD).... 2
+CODING SCHEME HOP................................(CODH)... 0
+INITIAL MCS FOR ACKNOWLEDGED MODE................(MCA).... 6
+INITIAL MCS FOR UNACKNOWLEDGED MODE..............(MCU).... 5
+MAXIMUM BLER IN ACKNOWLEDGED MODE................(BLA).... 90 %
+MAXIMUM BLER IN UNACKNOWLEDGED MODE..............(BLU).... 10 (1%)
+MEAN BEP OFFSET GMSK.............................(MBG).... 0
+MEAN BEP OFFSET 8PSK.............................(MBP).... 0
+EGPRS LINK ADAPTATION ENABLED....................(ELA).... 2
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+GPRS DL PC ENABLED...............................(DLPC)... N
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+DTM ENABLED......................................(DENA)... N
+
+NCCR RXLEV TRANSFER MODE WINDOW SIZE............(NRTW)... 5
+NCCR RXLEV IDLE MODE WINDOW SIZE................(NRIW)... 5
+NCCR NUMBER OF ZERO RESULTS.....................(NNZR)... 2
+NCCR OTHER PCU CELL OFFSET......................(NOPO)... 04 dB
+QC GPRS DL RLC ACK THROUGHPUT THRESHOLD.........(QGDRT).. 6 kbit/s
+QC GPRS UL RLC ACK THROUGHPUT THRESHOLD.........(QGURT).. 6 kbit/s
+QC EGPRS DL RLC ACK THROUGHPUT THRESHOLD........(QEDRT).. 10 kbit/s
+QC EGPRS UL RLC ACK THROUGHPUT THRESHOLD........(QEURT).. 10 kbit/s
+
+AMR RADIO LINK TIMEOUT.......................(ARLT)... 36  SACCH BLOCKS
+AMR HR RADIO LINK TIMEOUT....................(AHRLT).. 36  SACCH BLOCKS
+UL RADIO LINK TIMEOUT INCREASE STEP..........(URIS)... 10  SACCH BLOCKS
+AMR UL RADIO LINK TIMEOUT INCREASE STEP......(AURIS).. 10  SACCH BLOCKS
+AMR HR UL RADIO LINK TIMEOUT INCREASE STEP...(AHURIS). 10  SACCH BLOCKS
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0655   EBADAIDGAH21   
+BCF-0229   BTS-0655   EBADAIDGAH21   
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....327
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  1   2 
+                                                   PS:  1 
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..1006
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 62
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 05  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  20 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  STANDBY
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................  OK
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  62     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 327     
+      FREQUENCIES:
+          7     9    34
+
+DFCA MODE ........................(DMOD)... STANDBY
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:  1   2  
+                                            PS:  1  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL).. 1006     
+      FREQUENCIES:
+          1     2     3     4     5     6     7     8     9    10
+         11    12    13    14    15    16    17    18
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-001   U   WO       22  BCCH   -     -     -     -     -     -     -  
+TRX-002   U   WO            1     1     1     1     1     1     1     1  
+TRX-003   U   WO            2     2     2     2     2     2     2     2  
+TRX-004   U   WO            0     0     0     0     0     0     0     0  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 5 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 24 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... Y
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.5 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  6.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3).  8.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1).  7.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2).  8.5 dB
+AMR HR UL THRESHOLD 3........................(HRTU3). 22.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0656   EBADAIDGAH22   
+BCF-0229   BTS-0656   EBADAIDGAH22   
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....2206
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  1   2 
+                                                   PS:  1 
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..1006
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 42
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 05  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  20 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  STANDBY
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................  OK
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  42     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 2206     
+      FREQUENCIES:
+          5     7    12    34    36
+
+DFCA MODE ........................(DMOD)... STANDBY
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:  1   2  
+                                            PS:  1  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL).. 1006     
+      FREQUENCIES:
+          1     2     3     4     5     6     7     8     9    10
+         11    12    13    14    15    16    17    18
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-005   U   WO       26  BCCH   -     -     -     -     -     -     -  
+TRX-006   U   WO            0     0     0     0     0     0     0     0  
+TRX-007   U   WO            1     1     1     1     1     1     1     1  
+TRX-008   U   WO            2     2     2     2     2     2     2     2  
+TRX-015   U   WO            3     3     3     3     3     3     3     3  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 16 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 47 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... Y
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.5 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  6.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3).  8.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1).  7.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2).  8.5 dB
+AMR HR UL THRESHOLD 3........................(HRTU3). 22.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0657   EBADAIDGAH23   
+BCF-0229   BTS-0657   EBADAIDGAH23   
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 900
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....329
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  1   2 
+                                                   PS:  1 
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..1006
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 56
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-106 dBm
+BOUNDARY 2...............................(BO2)....-102 dBm
+BOUNDARY 3...............................(BO3)....-098 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 05  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+NON BCCH LAYER OFFSET....................(NBL)....  0 dBm
+BTS LOAD IN SEG..........................(LSEG)...  30 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  STANDBY
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................  OK
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  56     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 329     
+      FREQUENCIES:
+          2     9    10    14
+
+DFCA MODE ........................(DMOD)... STANDBY
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:  1   2  
+                                            PS:  1  
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL).. 1006     
+      FREQUENCIES:
+          1     2     3     4     5     6     7     8     9    10
+         11    12    13    14    15    16    17    18
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-009   U   WO       28  BCCH   -     -     -     -     -     -     -  
+TRX-010   U   WO            0     0     0     0     0     0     0     0  
+TRX-011   U   WO            1     1     1     1     1     1     1     1  
+TRX-012   U   WO            2     2     2     2     2     2     2     2  
+TRX-017   U   BL-RSL        3     3     3     3     3     3     3     3  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. Y
+DEDICATED GPRS CAPACITY..........................(CDED)... 8 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 43 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... Y
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  9.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2). 12.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 16.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  3.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  3.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  3.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 14.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 17.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3). 22.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  3.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  3.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  3.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0655   EBADAIDGAH21   
+BCF-0286   BTS-0686   EBADIDGAH21EX  
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....845
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  3 
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..1007
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 27
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-105 dBm
+BOUNDARY 2...............................(BO2)....-100 dBm
+BOUNDARY 3...............................(BO3)....-095 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 00  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+OSC EDGE MIXED USAGE ....................(OEMU)...  0 (DISABLED)
+NON BCCH LAYER OFFSET....................(NBL)....  1 dBm
+BTS LOAD IN SEG..........................(LSEG)...  80 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  STANDBY
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................  OK
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  27     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 845     
+      FREQUENCIES:
+        688   690
+
+DFCA MODE ........................(DMOD)... STANDBY
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:  3  
+                                            PS:   -   
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL).. 1007     
+      FREQUENCIES:
+        534   535   536   537   538   539   540   541   542   674
+        675   676   677   678   705
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-001   U   WO            0     0     0     0     0     0     0     0  
+TRX-002   U   WO            1     1     1     1     1     1     1     1  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. N
+DEDICATED GPRS CAPACITY..........................(CDED)... 0 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 1 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  4.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2).  7.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 11.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  1.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  1.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  1.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 11.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 14.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3).  0.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  1.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  1.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  0.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0656   EBADAIDGAH22   
+BCF-0286   BTS-0687   EBADIDGAH22EX  
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....846
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  3 
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..1007
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)... 37
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-105 dBm
+BOUNDARY 2...............................(BO2)....-100 dBm
+BOUNDARY 3...............................(BO3)....-095 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 00  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+OSC EDGE MIXED USAGE ....................(OEMU)...  0 (DISABLED)
+NON BCCH LAYER OFFSET....................(NBL)....  1 dBm
+BTS LOAD IN SEG..........................(LSEG)...  80 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...  37     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 846     
+      FREQUENCIES:
+        682   685   713
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:  3  
+                                            PS:   -   
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL).. 1007     
+      FREQUENCIES:
+        534   535   536   537   538   539   540   541   542   674
+        675   676   677   678   705
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-005   U   WO            0     0     0     0     0     0     0     0  
+TRX-006   U   WO            2     2     2     2     2     2     2     2  
+TRX-007   U   WO            1     1     1     1     1     1     1     1  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. N
+DEDICATED GPRS CAPACITY..........................(CDED)... 0 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 1 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  4.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2).  7.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 11.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  1.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  1.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  1.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 11.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 14.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3).  0.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  1.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  1.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  0.0 dB
+
+
+BTS PARAMETERS :
+================
+
+SEG-0657   EBADAIDGAH23   
+BCF-0286   BTS-0688   EBADIDGAH23EX  
+-------------------------------------
+BTS ADMINISTRATIVE STATE ... UNLOCKED
+BTS OPERATIONAL STATE ...... WO
+
+FREQUENCY BAND IN USE....................(BAND)... 1800
+
+
+BTS HOPPING MODE.........................(HOP).... RF
+ANTENNA HOPPING..........................(AHOP)...  Y
+
+   MOBILE ALLOCATION FREQUENCY LIST......(MAL)....847
+   DFCA MOBILE ALLOCATION FREQUENCY LISTS(DMAL)... CS:  3 
+                                                   PS:  -
+                                                   RH:  -
+   DFCA UNSYNCHRONIZED MODE MA FREQ LIST.(DUMAL)..1007
+
+   HOPPING SEQUENCE NUMBER 1.............(HSN1)...  2
+   HOPPING SEQUENCE NUMBER 2.............(HSN2)...  0
+
+
+GPRS NON BCCH LAYER RXLEV UPPER LIMIT....(GPU)....-095 dBm
+GPRS NON BCCH LAYER RXLEV LOWER LIMIT....(GPL)....-100 dBm
+
+
+C/N THRESHOLD............................(CNT).... 00 dB  (NOT USED)
+BOUNDARY 0...............................(BO0)....-110 dBm
+BOUNDARY 1...............................(BO1)....-105 dBm
+BOUNDARY 2...............................(BO2)....-100 dBm
+BOUNDARY 3...............................(BO3)....-095 dBm
+BOUNDARY 4...............................(BO4)....-090 dBm
+BOUNDARY 5...............................(BO5)....-047 dBm
+
+MS TX PWR MIN............................(PMIN)... 00  dBm
+RX DIVERSITY.............................(RDIV)...  Y
+LIMIT FOR TRIGGERING OSC DHR MULTIPLEXING(DHRLIM). DISABLED
+OSC EDGE MIXED USAGE ....................(OEMU)...  0 (DISABLED)
+NON BCCH LAYER OFFSET....................(NBL)....  2 dBm
+BTS LOAD IN SEG..........................(LSEG)...  70 %
+DL NOISE LEVEL ..........................(DLN)...  -117 dB
+UL NOISE LEVEL ..........................(ULN)...  -117 dB
+STIRC ENABLED............................(STIRC).  N
+IMMEDIATE SDCCH HO ENABLED...............(ISIC)..  0 (DISABLED)
+DFCA PARAMETERS:
+   DFCA MODE ............................(DMOD)..  OFF
+   FORCED HR MODE C/I AVERAGING PERIOD ..(FHR)...   15 min
+   FORCED HR MODE C/I THRESHOLD .........(FHT)...    0 dB
+   FORCED AMR HR MODE C/I THRESHOLD .....(FAHT)..    0 dB
+   FORCED HR MODE HYSTERESIS ............(FHH)...    3 dB
+   BSC-BSC INTERFACE STATUS .....................    -
+
+
+BTS HOPPING MODE..................(HOP)....  RF   (RF HOPPING)
+   HOPPING SEQUENCE NUMBER 1......(HSN1)...   2     
+   HOPPING SEQUENCE NUMBER 2......(HSN2)...   0    *)
+   MAIO OFFSET....................(MO).....   0     
+   MAIO STEP......................(MS).....   1     
+   MOBILE ALLOCATION FREQ LIST....(MAL).... 847     
+      FREQUENCIES:
+        683   687   689
+
+DFCA MODE ........................(DMOD)... OFF
+   DFCA MA FREQ LIST(S)...........(DMAL)... CS:  3  
+                                            PS:   -   
+                                            RH:   -  
+   DFCA UNSYNC MODE MA FREQ LIST..(DUMAL).. 1007     
+      FREQUENCIES:
+        534   535   536   537   538   539   540   541   542   674
+        675   676   677   678   705
+
+MAIO VALUES PER RADIO TIMESLOT:
+
+
+         ADM.  OP.
+        STATE STATE  FREQ RTSL0 RTSL1 RTSL2 RTSL3 RTSL4 RTSL5 RTSL6 RTSL7
+
+TRX-009   U   WO            0     0     0     0     0     0     0     0  
+TRX-010   U   WO            2     2     2     2     2     2     2     2  
+TRX-011   U   WO            1     1     1     1     1     1     1     1  
+
+*) NOT RELEVANT IN THIS HOPPING MODE
+
+HSCSD TCH CAPACITY MINIMUM...............(HTM).... 100 %
+HSCSD CELL LOAD UPPER LIMIT..............(HCU).... 100 %
+HSCSD CELL LOAD LOWER LIMIT..............(HCL).... 100 %
+HSCSD REGULAR CELL LOAD UPPER LIMIT......(HRCU)... 100 %
+
+EGPRS ENABLED....................................(EGENA).. N
+DEDICATED GPRS CAPACITY..........................(CDED)... 0 %
+DEFAULT GPRS CAPACITY............................(CDEF)... 1 %
+MAX GPRS CAPACITY................................(CMAX)... 100 %
+CODING SCHEMES CS3 AND CS4 ENABLED...............(CS34)... N
+DL CODING SCHEME IN ACKNOWLEDGED MODE............(DCSA)... 1
+UL CODING SCHEME IN ACKNOWLEDGED MODE............(UCSA)... 1
+DL CODING SCHEME IN UNACKNOWLEDGED MODE..........(DCSU)... 1
+UL CODING SCHEME IN UNACKNOWLEDGED MODE..........(UCSU)... 1
+ADAPTIVE LA ALGORITHM ENABLED....................(ALA).... Y
+BTS UL THROUGHPUT FACTOR FOR CS1-CS4.............(TFU).... 12 kbit/s
+BTS DL THROUGHPUT FACTOR FOR CS1-CS4.............(TFD).... 12 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS4...........(TFUM1).. 16 kbit/s
+BTS UL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFUM)... 30 kbit/s
+BTS DL THROUGHPUT FACTOR FOR MCS1-MCS9...........(TFDM)... 30 kbit/s
+EGPRS INACTIVITY ALARM WEEKDAYS..................(EAW).... NONE
+EGPRS INACTIVITY ALARM START TIME................(EAS).... 08-00
+EGPRS INACTIVITY ALARM END TIME..................(EAE).... 18-00
+
+AMR FR CODEC MODE SET........................(FRC)... 12.2 7.40 5.90 4.75 kbit/s
+AMR FR START MODE............................(FRS)...  00
+AMR FR INITIAL CODEC MODE INDICATOR (ICMI)...(FRI)...  0
+AMR FR DL THRESHOLD 1........................(FRTD1).  4.0 dB
+AMR FR DL THRESHOLD 2........................(FRTD2).  7.0 dB
+AMR FR DL THRESHOLD 3........................(FRTD3). 11.0 dB
+AMR FR UL THRESHOLD 1........................(FRTU1).  4.0 dB
+AMR FR UL THRESHOLD 2........................(FRTU2).  7.0 dB
+AMR FR UL THRESHOLD 3........................(FRTU3). 11.0 dB
+AMR FR HYSTERESIS 1..........................(FRH1)..  1.0 dB
+AMR FR HYSTERESIS 2..........................(FRH2)..  1.0 dB
+AMR FR HYSTERESIS 3..........................(FRH3)..  1.0 dB
+
+AMR HR CODEC MODE SET........................(HRC)... 7.40 5.90 4.75 kbit/s
+AMR HR START MODE............................(HRS)...  00
+AMR HR INITIAL CODEC MODE INDICATOR (ICMI)...(HRI)...  0
+AMR HR DL THRESHOLD 1........................(HRTD1). 11.0 dB
+AMR HR DL THRESHOLD 2........................(HRTD2). 14.0 dB
+AMR HR DL THRESHOLD 3........................(HRTD3).  0.0 dB
+AMR HR UL THRESHOLD 1........................(HRTU1). 11.0 dB
+AMR HR UL THRESHOLD 2........................(HRTU2). 14.0 dB
+AMR HR UL THRESHOLD 3........................(HRTU3).  0.0 dB
+AMR HR HYSTERESIS 1..........................(HRH1)..  1.0 dB
+AMR HR HYSTERESIS 2..........................(HRH2)..  1.0 dB
+AMR HR HYSTERESIS 3..........................(HRH3)..  0.0 dB
+
+COMMAND EXECUTED
+
+
+BASE TRANSCEIVER STATION HANDLING IN BSC COMMAND <EQ_>
+<  

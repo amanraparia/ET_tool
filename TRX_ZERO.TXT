@@ -1,0 +1,2498 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.04.06 17:53:29 =~=~=~=~=~=~=~=~=~=~=~=
+ZER[1D[JRO:BCF=1&&[1D[J[1D[J[1D[J9;[1D[J&34&229&286;
+
+LOADING PROGRAM VERSION 34.2-0
+
+
+
+
+BSC3i     B136BEL1                  2017-04-06  17:54:18
+
+TRANSCEIVER DATA
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0022  EEKAMBA21         UNLOCKED         WO                   
+TRX-001 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     30        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       9              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    218  T0081
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   547         -     MBCCH     -  UNLOCKED        WO                         
+  1   547         -     SDCCB     -  UNLOCKED        WO                         
+  2   547         -     SDCCH     -  UNLOCKED        WO                         
+  3   547-  1     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   547-  2     0     TCHD      0  UNLOCKED        WO             GP         
+  5   547-  2     1     TCHD      0  UNLOCKED        WO             GP         
+  6   547-  2     2     TCHD      0  UNLOCKED        WO             GP         
+  7   547-  2     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0022  EEKAMBA21         UNLOCKED         WO                   
+TRX-002 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      1        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       9              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          369    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    219  T0082
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   547-  3     0     TCHD      0  UNLOCKED        WO             GP         
+  1   547-  3     1     TCHD      0  UNLOCKED        WO             GP         
+  2   547-  3     2     TCHD      0  UNLOCKED        WO             GP         
+  3   547-  3     3     TCHD      0  UNLOCKED        WO             GP         
+  4   547-  4     0     TCHD      0  UNLOCKED        WO             GP         
+  5   547-  4     1     TCHD      0  UNLOCKED        WO             GP         
+  6   547-  4     2     TCHD      0  UNLOCKED        WO             GP         
+  7   547-  4     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0022  EEKAMBA21         UNLOCKED         WO                   
+TRX-003 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      3        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          369    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    220  T0083
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549-  1     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   549-  1     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   549-  1     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   549-  1     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   549-  2     0     TCHD      0  UNLOCKED        WO             HR    ID   
+  5   549-  2     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   549-  2     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   549-  2     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0022  EEKAMBA21         UNLOCKED         WO                   
+TRX-004 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      5        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          369    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    221  T0084
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549- 23     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   549- 23     1     TCHD      0  UNLOCKED        WO             HR    ID   
+  2   549- 23     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   549- 23     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   549- 24     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   549- 24     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   549- 24     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  7   549- 24     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0022  EEKAMBA21         UNLOCKED         WO                   
+TRX-016                     LOCKED           BL-USR               
+ BCSU-5
+
+GTRX      N                       BB_UNIT   UNKNOWN                      
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      9        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          369    SIGN      0
+
+TRX RF POWER 0 mW      NUMBER OF TRX RF POWER LEVELS    0  
+
+
+D-CH TELECOM LINK SET    359  T009G
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549-  7     0     TCHD      4  UNLOCKED        BL-USR                    
+  1   549-  7     1     TCHD      4  UNLOCKED        BL-USR                    
+  2   549-  7     2     TCHD      4  UNLOCKED        BL-USR                    
+  3   549-  7     3     TCHD      4  UNLOCKED        BL-USR                    
+  4   549-  8     0     TCHD      4  UNLOCKED        BL-USR                    
+  5   549-  8     1     TCHD      4  UNLOCKED        BL-USR                    
+  6   549-  8     2     TCHD      4  UNLOCKED        BL-USR                    
+  7   549-  8     3     TCHD      4  UNLOCKED        BL-USR                    
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0023  EEKAMBA22         UNLOCKED         WO                   
+TRX-005 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     21        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1009              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    222  T0085
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   547         -     MBCCH     -  UNLOCKED        WO                         
+  1   547         -     SDCCB     -  UNLOCKED        WO                         
+  2   547- 27     2     TCHD      1  UNLOCKED        WO             ID    HR   
+  3   547- 27     3     TCHD      2  UNLOCKED        WO             ID    HR   
+  4   547- 28     0     TCHD      0  UNLOCKED        WO             HR    ID   
+  5   547- 28     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   547- 28     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   547- 28     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0023  EEKAMBA22         UNLOCKED         WO                   
+TRX-006 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      1        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1009              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          370    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    223  T0086
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   547- 29     0     TCHD      0  UNLOCKED        WO             GP         
+  1   547- 29     1     TCHD      0  UNLOCKED        WO             GP         
+  2   547- 29     2     TCHD      0  UNLOCKED        WO             GP         
+  3   547- 29     3     TCHD      0  UNLOCKED        WO             GP         
+  4   547- 30     0     TCHD      0  UNLOCKED        WO             GP         
+  5   547- 30     1     TCHD      0  UNLOCKED        WO             GP         
+  6   547- 30     2     TCHD      0  UNLOCKED        WO             GP         
+  7   547- 30     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0023  EEKAMBA22         UNLOCKED         WO                   
+TRX-007 EDGE                UNLOCKED         WO                   
+ BCSU-2
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      3        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          370    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    224  T0087
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549- 21     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   549         -     SDCCH     -  UNLOCKED        WO                         
+  2   549- 21     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   549- 21     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   549- 22     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   549- 22     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   549- 22     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   549- 22     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0023  EEKAMBA22         UNLOCKED         WO                   
+TRX-008 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      5        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          370    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    225  T0088
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549-  3     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   549         -     SDCCH     -  UNLOCKED        WO                         
+  2   549-  3     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   549-  3     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   549-  4     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   549-  4     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   549-  4     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  7   549-  4     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0024  EEKAMBA23         UNLOCKED         WO                   
+TRX-009 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     25        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1109              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    226  T0089
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   547         -     MBCCH     -  UNLOCKED        WO                         
+  1   547         -     SDCCB     -  UNLOCKED        WO                         
+  2   547- 17     2     TCHD      0  UNLOCKED        WO             HR    HR HR
+  3   547- 17     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   547- 18     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   547- 18     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   547- 18     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   547- 18     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0024  EEKAMBA23         UNLOCKED         WO                   
+TRX-010 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      1        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          388    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    227  T008A
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549- 15     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   549- 15     1     TCHD      0  UNLOCKED        WO             ID    HR   
+  2   549- 15     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   549- 15     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   549- 16     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   549- 16     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   549- 16     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   549- 16     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0024  EEKAMBA23         UNLOCKED         WO                   
+TRX-011 EDGE                UNLOCKED         WO                   
+ BCSU-2
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      5        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1109              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          388    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    228  T008B
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   547- 21     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   547         -     SDCCH     -  UNLOCKED        WO                         
+  2   547- 21     2     TCHD      0  UNLOCKED        WO             GP         
+  3   547- 21     3     TCHD      0  UNLOCKED        WO             GP         
+  4   547- 22     0     TCHD      0  UNLOCKED        WO             GP         
+  5   547- 22     1     TCHD      0  UNLOCKED        WO             GP         
+  6   547- 22     2     TCHD      0  UNLOCKED        WO             GP         
+  7   547- 22     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0024  EEKAMBA23         UNLOCKED         WO                   
+TRX-012 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      3        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          388    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    229  T008C
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549-  5     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   549         -     SDCCH     -  UNLOCKED        WO                         
+  2   549-  5     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   549-  5     3     TCHD      1  UNLOCKED        WO             HR    HR   
+  4   549-  6     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   549-  6     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   549-  6     2     TCHD      2  UNLOCKED        WO             HR    HR   
+  7   549-  6     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0024  EEKAMBA23         UNLOCKED         WO                   
+TRX-025                     LOCKED           BL-USR               
+ BCSU-5
+
+GTRX      N                       BB_UNIT   UNKNOWN                      
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      9        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          388    SIGN      0
+
+TRX RF POWER 0 mW      NUMBER OF TRX RF POWER LEVELS    0  
+
+
+D-CH TELECOM LINK SET    390  T009P
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   549- 17     0     TCHD      4  UNLOCKED        BL-USR                    
+  1   549- 17     1     TCHD      4  UNLOCKED        BL-USR                    
+  2   549- 17     2     TCHD      4  UNLOCKED        BL-USR                    
+  3   549- 17     3     TCHD      4  UNLOCKED        BL-USR                    
+  4   549- 18     0     TCHD      4  UNLOCKED        BL-USR                    
+  5   549- 18     1     TCHD      4  UNLOCKED        BL-USR                    
+  6   549- 18     2     TCHD      4  UNLOCKED        BL-USR                    
+  7   549- 18     3     TCHD      4  UNLOCKED        BL-USR                    
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0189  EEKAMBA21EX       UNLOCKED         WO                   
+TRX-013 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    682        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          721    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    954  T009D
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995-  1     0     TCHD      0  UNLOCKED        WO             FR         
+  1   995-  1     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995-  1     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   995-  1     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   995-  2     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   995-  2     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   995-  2     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995-  2     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0189  EEKAMBA21EX       UNLOCKED         WO                   
+TRX-014 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    684        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          721    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1090  T009E
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995-  3     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995-  3     1     TCHD      0  UNLOCKED        WO             FR         
+  2   995-  3     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   995-  3     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   995-  4     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   995-  4     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995-  4     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   995-  4     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0022  EEKAMBA21      
+BTS-0189  EEKAMBA21EX       UNLOCKED         WO                   
+TRX-015 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    689        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          721    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1168  T009F
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995-  5     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995-  5     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995-  5     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   995-  5     3     TCHD      0  UNLOCKED        WO             HR    ID   
+  4   995-  6     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   995-  6     1     TCHD      0  UNLOCKED        WO             FR         
+  6   995-  6     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995-  6     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0190  EEKAMBA22EX       UNLOCKED         WO                   
+TRX-017 EDGE                UNLOCKED         WO                   
+ BCSU-3
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    686        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          722    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1169  T009H
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995-  7     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995-  7     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995-  7     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   995-  7     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   995-  8     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   995-  8     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995-  8     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995-  8     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0190  EEKAMBA22EX       UNLOCKED         WO                   
+TRX-018 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    688        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          722    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1170  T009I
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995-  9     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995-  9     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995-  9     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   995-  9     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   995- 10     0     TCHD      0  UNLOCKED        WO             HR    ID   
+  5   995- 10     1     TCHD      0  UNLOCKED        WO             FR         
+  6   995- 10     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995- 10     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0190  EEKAMBA22EX       UNLOCKED         WO                   
+TRX-019 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    690        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          722    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1171  T009J
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995- 11     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995- 11     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   995- 11     2     TCHD      0  UNLOCKED        WO             FR         
+  3   995- 11     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   995- 12     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   995- 12     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995- 12     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995- 12     3     TCHD      0  UNLOCKED        WO             FR         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0023  EEKAMBA22      
+BTS-0190  EEKAMBA22EX       UNLOCKED         WO                   
+TRX-020 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    683        TSC   3        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          722    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1172  T009K
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995- 13     0     TCHD      0  UNLOCKED        WO             FR         
+  1   995- 13     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   995- 13     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   995- 13     3     TCHD      0  UNLOCKED        WO             FR         
+  4   995- 14     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   995- 14     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995- 14     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995- 14     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0192  EEKAMBA23EX       UNLOCKED         WO                   
+TRX-021 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    664        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          725    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1173  T009L
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995- 17     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995- 17     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995- 17     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   995- 17     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   995- 18     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   995- 18     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995- 18     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   995- 18     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0192  EEKAMBA23EX       UNLOCKED         WO                   
+TRX-022 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    666        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          725    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1174  T009M
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995- 19     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995- 19     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   995- 19     2     TCHD      1  UNLOCKED        WO             ID    ID   
+  3   995- 19     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   995- 20     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   995- 20     1     TCHD      0  UNLOCKED        WO             FR         
+  6   995- 20     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   995- 20     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0192  EEKAMBA23EX       UNLOCKED         WO                   
+TRX-023 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    690        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          725    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    198  T923 
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995- 23     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   995- 23     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995- 23     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   995- 23     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   995- 24     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   995- 24     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995- 24     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   995- 24     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0009                    UNLOCKED         WO                   
+SEG-0024  EEKAMBA23      
+BTS-0192  EEKAMBA23EX       UNLOCKED         WO                   
+TRX-024 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ    682        TSC   7        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          725    SIGN      0
+
+TRX RF POWER 20000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1241  T009O
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   995- 25     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   995- 25     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   995- 25     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   995- 25     3     TCHD      0  UNLOCKED        WO             ID    HR   
+  4   995- 26     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   995- 26     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   995- 26     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  7   995- 26     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0093  EADHANG11      
+BTS-0093  EADHANG11         UNLOCKED         WO                   
+TRX-001 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ      1        TSC   4        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     117              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          336    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    551  T0341
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117-  1     0     TCHD      0  UNLOCKED        WO             GP         
+  1   117         -     SDCCH     -  UNLOCKED        WO                         
+  2   117-  1     2     TCHD      0  UNLOCKED        WO             GP         
+  3   117-  1     3     TCHD      0  UNLOCKED        WO             GP         
+  4   117-  2     0     TCHD      0  UNLOCKED        WO             GP         
+  5   117-  2     1     TCHD      0  UNLOCKED        WO             GP         
+  6   117-  2     2     TCHD      0  UNLOCKED        WO             GP         
+  7   117-  2     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0093  EADHANG11      
+BTS-0093  EADHANG11         UNLOCKED         WO                   
+TRX-002 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ      3        TSC   4        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     117              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          336    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    628  T0342
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117-  3     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   117-  3     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   117-  3     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   117-  3     3     TCHD      0  UNLOCKED        WO             ID    HR   
+  4   117-  4     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   117-  4     1     TCHD      0  UNLOCKED        WO             HR    ID   
+  6   117-  4     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   117-  4     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0093  EADHANG11      
+BTS-0093  EADHANG11         UNLOCKED         WO                   
+TRX-003 EDGE                UNLOCKED         WO                   
+ BCSU-6
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     20        TSC   4        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    639  E0343
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117         -     MBCCH     -  UNLOCKED        WO                         
+  1   117         -     SDCCB     -  UNLOCKED        WO                         
+  2   117-  5     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   117-  5     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   117-  6     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   117-  6     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   117-  6     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   117-  6     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0093  EADHANG11      
+BTS-0093  EADHANG11         UNLOCKED         WO                   
+TRX-004 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ      7        TSC   4        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          336    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    283  E0344
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113-  1     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   113         -     SDCCH     -  UNLOCKED        WO                         
+  2   113-  1     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   113-  1     3     TCHD      0  UNLOCKED        WO             HR    ID   
+  4   113-  2     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   113-  2     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   113-  2     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   113-  2     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0093  EADHANG11      
+BTS-0093  EADHANG11         UNLOCKED         WO                   
+TRX-013 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      5        TSC   4        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          336    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    630  T34D 
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117- 17     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   117- 17     1     TCHD      0  UNLOCKED        WO             ID    HR   
+  2   117- 17     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   117- 17     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   117- 18     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   117- 18     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   117- 18     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   117- 18     3     TCHD      0  UNLOCKED        WO             HR    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0093  EADHANG11      
+BTS-0093  EADHANG11         UNLOCKED         WO                   
+TRX-014 EDGE                UNLOCKED         WO                   
+ BCSU-2
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ     12        TSC   4        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          336    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1264  T034E
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117- 20     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   117- 20     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   117- 20     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   117- 20     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   117- 21     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   117- 21     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   117- 21     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  7   117- 21     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0094  EADHANG12      
+BTS-0094  EADHANG12         UNLOCKED         WO                   
+TRX-005 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     29        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1117              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    631  E0345
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117         -     MBCCH     -  UNLOCKED        WO                         
+  1   117         -     SDCCB     -  UNLOCKED        WO                         
+  2   117-  7     2     TCHD      0  UNLOCKED        WO             GP         
+  3   117-  7     3     TCHD      0  UNLOCKED        WO             GP         
+  4   117-  8     0     TCHD      0  UNLOCKED        WO             GP         
+  5   117-  8     1     TCHD      0  UNLOCKED        WO             GP         
+  6   117-  8     2     TCHD      0  UNLOCKED        WO             GP         
+  7   117-  8     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0094  EADHANG12      
+BTS-0094  EADHANG12         UNLOCKED         WO                   
+TRX-006 EDGE                UNLOCKED         WO                   
+ BCSU-6
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      5        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1117              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          707    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    634  E0346
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117-  9     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   117-  9     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   117-  9     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   117-  9     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   117- 10     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   117- 10     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   117- 10     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   117- 10     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0094  EADHANG12      
+BTS-0094  EADHANG12         UNLOCKED         WO                   
+TRX-007 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      3        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP    1117              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          707    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    635  E0347
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117- 11     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   117         -     SDCCH     -  UNLOCKED        WO                         
+  2   117- 11     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   117- 11     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   117- 12     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   117- 12     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   117- 12     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   117- 12     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0094  EADHANG12      
+BTS-0094  EADHANG12         UNLOCKED         WO                   
+TRX-008 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      7        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          707    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    188  E0348
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113-  3     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   113-  3     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   113-  3     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   113-  3     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   113-  4     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   113-  4     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   113-  4     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   113-  4     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0094  EADHANG12      
+BTS-0094  EADHANG12         UNLOCKED         WO                   
+TRX-017 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      1        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          707    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    288  T034H
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113- 19     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   113- 19     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   113- 19     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   113- 19     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   113- 20     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   113- 20     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   113- 20     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   113- 20     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0094  EADHANG12      
+BTS-0094  EADHANG12         UNLOCKED         WO                   
+TRX-018 EDGE                UNLOCKED         WO                   
+ BCSU-2
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ     12        TSC   6        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          707    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1262  T034I
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   117- 28     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   117- 28     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   117- 28     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   117- 28     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   117- 29     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   117- 29     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   117- 29     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   117- 29     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0095  EADHANG13      
+BTS-0095  EADHANG13         UNLOCKED         WO                   
+TRX-009 EDGE                UNLOCKED         WO                   
+ BCSU-6
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ      3        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP      34              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          311    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    629  E0349
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113- 13     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   113- 13     1     TCHD      0  UNLOCKED        WO             HR    ID   
+  2   113- 13     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   113- 13     3     TCHD      0  UNLOCKED        WO             GP         
+  4   113- 14     0     TCHD      0  UNLOCKED        WO             GP         
+  5   113- 14     1     TCHD      0  UNLOCKED        WO             GP         
+  6   113- 14     2     TCHD      0  UNLOCKED        WO             GP         
+  7   113- 14     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0095  EADHANG13      
+BTS-0095  EADHANG13         UNLOCKED         WO                   
+TRX-010 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ      5        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP      34              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          311    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    189  E034A
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113- 15     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   113- 15     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   113- 15     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   113- 15     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   113- 16     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   113- 16     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   113- 16     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   113- 16     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0095  EADHANG13      
+BTS-0095  EADHANG13         UNLOCKED         WO                   
+TRX-011 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      Y (EDGE)                BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ      1        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP      34              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          311    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    649  E034B
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113- 17     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   113         -     SDCCH     -  UNLOCKED        WO                         
+  2   113- 17     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   113- 17     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   113- 18     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   113- 18     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   113- 18     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   113- 18     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0095  EADHANG13      
+BTS-0095  EADHANG13         UNLOCKED         WO                   
+TRX-012 EDGE                UNLOCKED         WO                   
+ BCSU-6
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     24        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    265  E034C
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113         -     MBCCH     -  UNLOCKED        WO                         
+  1   113         -     SDCCB     -  UNLOCKED        WO                         
+  2   113-  5     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   113-  5     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   113-  6     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   113-  6     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   113-  6     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   113-  6     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0034                    UNLOCKED         WO                   
+SEG-0095  EADHANG13      
+BTS-0095  EADHANG13         UNLOCKED         WO                   
+TRX-015 EDGE                UNLOCKED         WO                   
+ BCSU-2
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      7        TSC   0        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          311    SIGN      0
+
+TRX RF POWER 15000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    289  T034F
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   113- 29     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   113- 29     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   113- 29     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   113- 29     3     TCHD      0  UNLOCKED        WO             HR    ID   
+  4   113- 30     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   113- 30     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   113- 30     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   113- 30     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0655  EBADAIDGAH21   
+BTS-0655  EBADAIDGAH21      UNLOCKED         WO                   
+TRX-001 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     22        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    918  T2291
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878         -     MBCCH     -  UNLOCKED        WO                         
+  1   878         -     SDCCB     -  UNLOCKED        WO                         
+  2   878-  1     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   878-  1     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   878-  2     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   878-  2     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   878-  2     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   878-  2     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0655  EBADAIDGAH21   
+BTS-0655  EBADAIDGAH21      UNLOCKED         WO                   
+TRX-002 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      Y                                         
+
+FREQ      1        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          327    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    919  T2292
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878-  3     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   878-  3     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   878-  3     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   878-  3     3     TCHD      0  UNLOCKED        WO             GP         
+  4   878-  4     0     TCHD      0  UNLOCKED        WO             GP         
+  5   878-  4     1     TCHD      0  UNLOCKED        WO             GP         
+  6   878-  4     2     TCHD      0  UNLOCKED        WO             GP         
+  7   878-  4     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0655  EBADAIDGAH21   
+BTS-0655  EBADAIDGAH21      UNLOCKED         WO                   
+TRX-003 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ      5        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          327    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    920  T2293
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878-  5     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   878-  5     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   878         -     SDCCH     -  UNLOCKED        WO                         
+  3   878-  5     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   878-  6     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   878-  6     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   878-  6     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   878-  6     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0655  EBADAIDGAH21   
+BTS-0655  EBADAIDGAH21      UNLOCKED         WO                   
+TRX-004 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ      3        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          327    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    953  T2294
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 15     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537- 15     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537         -     SDCCH     -  UNLOCKED        WO                         
+  3   537- 15     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537- 16     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 16     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 16     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537- 16     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0656  EBADAIDGAH22      UNLOCKED         WO                   
+TRX-005 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     26        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    921  T2295
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878         -     MBCCH     -  UNLOCKED        WO                         
+  1   878         -     SDCCB     -  UNLOCKED        WO                         
+  2   878         -     SDCCH     -  UNLOCKED        WO                         
+  3   878-  7     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   878-  8     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   878-  8     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   878-  8     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   878-  8     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0656  EBADAIDGAH22      UNLOCKED         WO                   
+TRX-006 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      Y                                         
+
+FREQ      1        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST         2206    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    922  T2296
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878-  9     0     TCHD      0  UNLOCKED        WO             ID    HR   
+  1   878-  9     1     TCHD      0  UNLOCKED        WO             ID    HR   
+  2   878-  9     2     TCHD      0  UNLOCKED        WO             GP         
+  3   878-  9     3     TCHD      0  UNLOCKED        WO             GP         
+  4   878- 10     0     TCHD      0  UNLOCKED        WO             GP         
+  5   878- 10     1     TCHD      0  UNLOCKED        WO             GP         
+  6   878- 10     2     TCHD      0  UNLOCKED        WO             GP         
+  7   878- 10     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0656  EBADAIDGAH22      UNLOCKED         WO                   
+TRX-007 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ      5        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST         2206    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    923  T2297
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537-  7     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   537         -     SDCCH     -  UNLOCKED        WO                         
+  2   537-  7     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   537-  7     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537-  8     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   537-  8     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537-  8     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537-  8     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0656  EBADAIDGAH22      UNLOCKED         WO                   
+TRX-008 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ      3        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST         2206    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    388  T2298
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 28     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537- 28     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537- 28     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  3   537- 28     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537- 29     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 29     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   537- 29     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537- 29     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0656  EBADAIDGAH22      UNLOCKED         WO                   
+TRX-015 EDGE                UNLOCKED         WO                   
+ BCSU-4
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      7        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST         2206    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1279  T229F
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878- 25     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   878- 25     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   878- 25     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   878- 25     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   878- 26     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   878- 26     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   878- 26     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   878- 26     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0657  EBADAIDGAH23      UNLOCKED         WO                   
+TRX-009 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      N                                         
+
+FREQ     28        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       -
+
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+                                  SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    924  T2299
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878         -     MBCCH     -  UNLOCKED        WO                         
+  1   878         -     SDCCB     -  UNLOCKED        WO                         
+  2   878- 28     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   878- 28     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   878- 29     0     TCHD      0  UNLOCKED        WO             ID    HR   
+  5   878- 29     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  6   878- 29     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  7   878- 29     3     TCHD      0  UNLOCKED        WO             HR    HR   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0657  EBADAIDGAH23      UNLOCKED         WO                   
+TRX-010 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      Y (EDGE CS3 & CS4)      BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  P
+DFCA      Y                                         
+
+FREQ      1        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP     229              LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          329    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    925  T229A
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   878- 11     0     TCHD      0  UNLOCKED        WO             ID    HR   
+  1   878- 11     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   878- 11     2     TCHD      0  UNLOCKED        WO             GP         
+  3   878- 11     3     TCHD      0  UNLOCKED        WO             GP         
+  4   878- 12     0     TCHD      0  UNLOCKED        WO             GP         
+  5   878- 12     1     TCHD      0  UNLOCKED        WO             GP         
+  6   878- 12     2     TCHD      0  UNLOCKED        WO             GP         
+  7   878- 12     3     TCHD      0  UNLOCKED        WO             GP         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0657  EBADAIDGAH23      UNLOCKED         WO                   
+TRX-011 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ      3        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          329    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET    748  T229B
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 21     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537         -     SDCCH     -  UNLOCKED        WO                         
+  2   537- 21     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   537- 21     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537- 22     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 22     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 22     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537- 22     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0657  EBADAIDGAH23      UNLOCKED         WO                   
+TRX-012 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                       BB_UNIT   EDGE                         
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ      5        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          329    SIGN      0
+
+TRX RF POWER 12000 mW      NUMBER OF TRX RF POWER LEVELS   16  
+
+
+D-CH TELECOM LINK SET   1016  T229C
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 23     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537         -     SDCCH     -  UNLOCKED        WO                         
+  2   537- 23     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   537- 23     3     TCHD      0  UNLOCKED        WO             HR    ID   
+  4   537- 24     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 24     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 24     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537- 24     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0229                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0657  EBADAIDGAH23      UNLOCKED         WO                   
+TRX-017                     UNLOCKED         BL-RSL               
+ BCSU-4
+
+GTRX      N                       BB_UNIT   UNKNOWN                      
+                                  HRS       Y              PREF  N
+DFCA      N                                         
+
+FREQ      9        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE      2 (NOT VALID)
+
+MA FREQUENCY LIST          329    SIGN      0
+
+TRX RF POWER 0 mW      NUMBER OF TRX RF POWER LEVELS    0  
+
+
+D-CH TELECOM LINK SET   1285  T229H
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0  1477-  2     0     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  1  1477-  2     1     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  2  1477-  2     2     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  3  1477-  2     3     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  4  1477-  3     0     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  5  1477-  3     1     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  6  1477-  3     2     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+  7  1477-  3     3     TCHD      4  UNLOCKED        BL-RSL         ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0655  EBADAIDGAH21   
+BTS-0686  EBADIDGAH21EX     UNLOCKED         WO                   
+TRX-001 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    682        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+                                  SIGN      0
+
+D-CH TELECOM LINK SET    990  T2651
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537-  1     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537-  1     1     TCHD      0  UNLOCKED        WO             HR    HR   
+  2   537-  1     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   537-  1     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537-  2     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537-  2     1     TCHD      0  UNLOCKED        WO             HR    ID   
+  6   537-  2     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   537-  2     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0655  EBADAIDGAH21   
+BTS-0686  EBADIDGAH21EX     UNLOCKED         WO                   
+TRX-002 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    684        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST          845    SIGN      0
+
+D-CH TELECOM LINK SET    991  T2652
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537-  3     0     TCHD      0  UNLOCKED        WO             HR    ID   
+  1   537-  3     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537-  3     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   537-  3     3     TCHD      0  UNLOCKED        WO             HR    HR   
+  4   537-  4     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537-  4     1     TCHD      0  UNLOCKED        WO             HR    ID   
+  6   537-  4     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537-  4     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0687  EBADIDGAH22EX     UNLOCKED         WO                   
+TRX-005 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    686        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+                                  SIGN      0
+
+D-CH TELECOM LINK SET    994  T0265
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537-  9     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537-  9     1     TCHD      0  UNLOCKED        WO             ID    HR   
+  2   537-  9     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  3   537-  9     3     TCHD      0  UNLOCKED        WO             HR    ID   
+  4   537- 10     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 10     1     TCHD      0  UNLOCKED        WO             ID    HR   
+  6   537- 10     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  7   537- 10     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0687  EBADIDGAH22EX     UNLOCKED         WO                   
+TRX-006 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    688        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST          846    SIGN      0
+
+D-CH TELECOM LINK SET    995  T0266
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 11     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537- 11     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537- 11     2     TCHD      0  UNLOCKED        WO             HR    ID   
+  3   537- 11     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537- 12     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  5   537- 12     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 12     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  7   537- 12     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0656  EBADAIDGAH22   
+BTS-0687  EBADIDGAH22EX     UNLOCKED         WO                   
+TRX-007 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    683        TSC   2        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST          846    SIGN      0
+
+D-CH TELECOM LINK SET   1008  T2867
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 13     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537- 13     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537- 13     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   537- 13     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537- 14     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 14     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 14     2     TCHD      0  UNLOCKED        WO             ID    HR   
+  7   537- 14     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0688  EBADIDGAH23EX     UNLOCKED         WO                   
+TRX-009 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    689        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+                                  SIGN      0
+
+D-CH TELECOM LINK SET    992  T2659
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 17     0     TCHD      0  UNLOCKED        WO             HR    HR   
+  1   537- 17     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537- 17     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   537- 17     3     TCHD      0  UNLOCKED        WO             HR    ID   
+  4   537- 18     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 18     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 18     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   537- 18     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0688  EBADIDGAH23EX     UNLOCKED         WO                   
+TRX-010 EDGE                UNLOCKED         WO                   
+ BCSU-5
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    713        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       1 (SUPPORTED)           TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST          847    SIGN      0
+
+D-CH TELECOM LINK SET    993  T265A
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537- 19     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537- 19     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537- 19     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  3   537- 19     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537- 20     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  5   537- 20     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  6   537- 20     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   537- 20     3     TCHD      0  UNLOCKED        WO             ID    ID   
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+                            ADM.STATE        OP.STATE
+                            --------------------------------------
+BCF-0286                    UNLOCKED         WO                   
+SEG-0657  EBADAIDGAH23   
+BTS-0688  EBADIDGAH23EX     UNLOCKED         WO                   
+TRX-011 EDGE                UNLOCKED         WO                   
+ BCSU-0
+
+GTRX      N                                                              
+                                  HRS       Y              PREF  N
+DFCA      Y                                         
+
+FREQ    683        TSC   1        FRT       0 (REGULAR)    LEV   N (NOT USED)
+
+DAL       N (NOT USED)            DAP       N (NOT USED)   LEVD  N (NOT USED)
+                                  SDG       1
+
+OSC       3 (SUPPORTED, NO EGPRS) TRX STARTING MODE     0 (EGPRS)
+
+MA FREQUENCY LIST          847    SIGN      0
+
+D-CH TELECOM LINK SET   1011  T286B
+
+RTSL  PCM-TSL  SUB_TSL  TYPE    I.LEV ADM.STATE     OP.STATE     CH.STATUS
+------------------------------------------------------------------------------
+  0   537-  5     0     TCHD      0  UNLOCKED        WO             ID    ID   
+  1   537-  5     1     TCHD      0  UNLOCKED        WO             ID    ID   
+  2   537-  5     2     TCHD      0  UNLOCKED        WO             ID    ID   
+  3   537-  5     3     TCHD      0  UNLOCKED        WO             ID    ID   
+  4   537-  6     0     TCHD      0  UNLOCKED        WO             HR    ID   
+  5   537-  6     1     TCHD      0  UNLOCKED        WO             HR    ID   
+  6   537-  6     2     TCHD      0  UNLOCKED        WO             HR    HR   
+  7   537-  6     3     TCHD      0  UNLOCKED        WO             FR         
+
+TRANSCEIVER HAS NO INTERFERING CELLS
+
+COMMAND EXECUTED
+
+
+TRANSCEIVER DATA HANDLING COMMAND <ER_>
+<  
